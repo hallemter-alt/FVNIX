@@ -46,6 +46,9 @@ app.get('/', (c) => {
             background: var(--bg-white);
             letter-spacing: 0.02em;
             font-feature-settings: 'palt' 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
 
         /* Header */

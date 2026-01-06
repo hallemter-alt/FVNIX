@@ -31,6 +31,9 @@ export const coffeePageJA = () => `
             background: var(--bg-white);
             letter-spacing: 0.02em;
             font-feature-settings: 'palt' 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--coffee-brown);
@@ -843,6 +846,9 @@ export const coffeePageZH = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--coffee-brown);

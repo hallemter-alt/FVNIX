@@ -30,6 +30,9 @@ export const nutsFoodPageJA = () => `
             background: var(--bg-white);
             letter-spacing: 0.02em;
             font-feature-settings: 'palt' 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-color);
@@ -469,6 +472,9 @@ export const nutsFoodPageEN = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-color);
@@ -908,6 +914,9 @@ export const nutsFoodPageZH = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-color);

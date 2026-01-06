@@ -30,6 +30,9 @@ export const essentialOilsPageJA = () => `
             background: var(--bg-white);
             letter-spacing: 0.02em;
             font-feature-settings: 'palt' 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-green);
@@ -473,6 +476,9 @@ export const essentialOilsPageEN = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-green);
@@ -916,6 +922,9 @@ export const essentialOilsPageZH = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--primary-green);

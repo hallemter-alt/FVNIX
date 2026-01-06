@@ -31,6 +31,9 @@ export const flowersPageJA = () => `
             background: var(--bg-white);
             letter-spacing: 0.02em;
             font-feature-settings: 'palt' 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: linear-gradient(135deg, var(--flower-pink) 0%, #c2185b 100%);
@@ -1014,6 +1017,9 @@ export const flowersPageZH = () => `
             color: var(--text-dark);
             background: var(--bg-white);
             letter-spacing: 0.02em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         header {
             background: var(--flower-pink);
