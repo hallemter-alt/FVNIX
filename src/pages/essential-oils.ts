@@ -1,0 +1,860 @@
+export const essentialOilsPageJA = () => `
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アロマ・天然香料 | 合同会社フェニックス</title>
+    <meta name="description" content="世界シェア40%+のユーカリ油をはじめ、48製品以上の高品質天然精油を供給。ISO 9001、REACH、KOSHER認証取得済み。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-green: #2d5f3f;
+            --secondary-green: #4a7c59;
+            --light-green: #e8f4ea;
+            --accent-gold: #b8934f;
+            --text-dark: #1a1a1a;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif JP', 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+            font-feature-settings: 'palt' 1;
+        }
+        header {
+            background: var(--primary-green);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        nav a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: white; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-left: 2rem;
+        }
+        .lang-switcher a {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s;
+            margin-left: 0 !important;
+        }
+        .lang-switcher a:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: white;
+            color: white;
+        }
+        .lang-switcher a.active {
+            background: white;
+            color: var(--primary-green);
+            border-color: white;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.4rem; margin-bottom: 1rem; font-weight: 500; font-family: 'Noto Serif JP', serif; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.95; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--primary-green);
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: 500;
+            font-family: 'Noto Serif JP', serif;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        .product-code {
+            background: var(--light-green);
+            color: var(--primary-green);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .product-name {
+            font-size: 1.3rem;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .product-latin {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .product-desc {
+            color: var(--text-gray);
+            line-height: 1.9;
+            font-size: 0.95rem;
+        }
+        .stats {
+            background: var(--bg-light);
+            padding: 3rem 2rem;
+            margin: 3rem 0;
+            border-radius: 16px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+        }
+        .stat-label { color: var(--text-gray); font-size: 0.95rem; }
+        footer {
+            background: var(--primary-green);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        footer a { color: rgba(255,255,255,0.8); text-decoration: none; margin: 0 1rem; }
+        footer a:hover { color: white; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .products-grid { grid-template-columns: 1fr; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">Fvnix LLC.</a>
+            <nav>
+                <a href="/">ホーム</a>
+                <a href="/products/essential-oils">アロマ・天然香料</a>
+                <a href="/products/nuts-food">健康・美容食品</a>
+                <a href="/products/coffee">スペシャルティコーヒー</a>
+                <a href="/products/flowers">プレミアム花卉</a>
+                <div class="lang-switcher">
+                    <a href="/products/essential-oils" class="active">JP</a>
+                    <a href="/en/products/essential-oils">EN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>アロマ・天然香料</h1>
+        <p>世界が認める品質。雲南高原から世界へ、純度100%の天然精油をお届けします。</p>
+    </section>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">40%+</div>
+                    <div class="stat-label">ユーカリ油<br>世界シェア（Global No.1）</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">桂油<br>世界シェア（Global Top 3）</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">ティーツリー油<br>世界シェア（Global Top 2）</div>
+                </div>
+                <div>
+                    <div class="stat-number">48+</div>
+                    <div class="stat-label">製品ラインナップ<br>PH001-PH048</div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">主要製品ラインナップ</h2>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <span class="product-code">PH001</span>
+                <h3 class="product-name">ホワイトオーキッド油</h3>
+                <p class="product-latin">Michelia Alba / 白蘭花油</p>
+                <p class="product-desc">
+                    エキゾチックな甘さを持つ豊かなフローラルノート。主成分：リナロール、酢酸ベンジル。
+                    陶酔的な花の特性を持つ中国伝統的な香料定香剤。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH002</span>
+                <h3 class="product-name">ネロリ油（玳玳花油）</h3>
+                <p class="product-latin">Citrus Aurantium Amara / 玳玳花油</p>
+                <p class="product-desc">
+                    繊細なフローラル・シトラス調のミドルノート。主成分：リナロール、酢酸リナリル、リモネン。
+                    蜂蜜様のフローラル・グリーンのニュアンスと微かな苦みを持つ古典的な調香素材。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH003</span>
+                <h3 class="product-name">ジャスミンABS</h3>
+                <p class="product-latin">Jasmin Absolute / 茉莉花浄油</p>
+                <p class="product-desc">
+                    溶剤萃取法による高濃度芳香物質。浓郁甜美的花香，被誉为「香氛之王」。
+                    高級香水の核となる重要な原料。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH004</span>
+                <h3 class="product-name">キンモクセイABS</h3>
+                <p class="product-latin">Osmanthus Absolute / 桂花浄油</p>
+                <p class="product-desc">
+                    溶剤萃取法による高濃度芳香物質。果香と甜味が交織し、
+                    秋を告げる桂花特有の醇厚な香気。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH015</span>
+                <h3 class="product-name">蓝桉叶油（ユーカリ）</h3>
+                <p class="product-latin">Eucalyptus Globulus / 世界シェア40%+</p>
+                <p class="product-desc">
+                    極めて強い穿透力、清涼感、樟脳気息。富含1,8-桉叶素，
+                    呼吸系統護理製品の経典成分。世界シェアNo.1製品。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH018</span>
+                <h3 class="product-name">ティーツリー油</h3>
+                <p class="product-latin">Melaleuca Alternifolia / 世界トップ2</p>
+                <p class="product-desc">
+                    清新、辛辣、薬草般的潔浄香気。広譜的抗菌・抗ウイルス特性で知られ、
+                    ニキビケアと皮膚護理のスター成分。世界シェアトップ2。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH024</span>
+                <h3 class="product-name">桂皮油（肉桂）</h3>
+                <p class="product-latin">Cinnamomum Cassia / 世界トップ3</p>
+                <p class="product-desc">
+                    樟科肉桂の樹皮・枝葉精油。香気辛辣甜暖、極佳的留香性と温暖感を持つ。
+                    世界シェアトップ3製品。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH005-PH048</span>
+                <h3 class="product-name">その他40製品以上</h3>
+                <p class="product-latin">Complete Product Database</p>
+                <p class="product-desc">
+                    ラベンダー、広藿香、迷迭香、生姜油、山鶏椒油など、
+                    多様な天然精油製品をラインナップ。詳細は製品カタログをご覧ください。
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem; text-align: center;">
+            <h2 class="section-title">国際認証・品質保証</h2>
+            <p style="max-width: 800px; margin: 2rem auto; color: var(--text-gray); line-height: 2;">
+                すべての製品はISO 9001、REACH、KOSHER、HACCP、cGMPなどの国際認証を取得済み。
+                完全なトレーサビリティ管理により、種子選定から製品出荷まで一貫した品質保証を実現しています。
+            </p>
+            <a href="/#contact" style="
+                display: inline-block;
+                background: var(--primary-green);
+                color: white;
+                padding: 1rem 3rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 500;
+                margin-top: 2rem;
+            ">サンプル依頼・お問い合わせ</a>
+        </div>
+    </div>
+
+    <!-- Product Catalog Downloads Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">製品カタログ・資料ダウンロード</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                製品データベース、安全データシート（MSDS）、各種認証書類をダウンロードいただけます。
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Main Product Database -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 製品データベース総覧
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        PH001〜PH098 全48製品以上の詳細情報、CAS番号、製品仕様を収録
+                    </p>
+                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+                        ダウンロード（PDF）
+                    </a>
+                </div>
+
+                <!-- MSDS Documents -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📄 安全データシート（MSDS）
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        各製品の安全性情報、取扱注意事項、化学成分データ
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/MSDS-Eucalyptus Citriodora Oil柠檬桉油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> レモンユーカリ油
+                        </a>
+                        <a href="/static/documents/MSDS-Cassia Oil桂油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> カシア油
+                        </a>
+                        <a href="/static/documents/MSDS-Jasmine Absolute茉莉花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ジャスミン精油
+                        </a>
+                        <a href="/static/documents/MSDS-Osmanthus Absolute桂花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> キンモクセイ精油
+                        </a>
+                        <a href="/static/documents/MSDS-Lavender Oil薰衣草油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ラベンダー油
+                        </a>
+                        <a href="/static/documents/MSDS-Geranium Oil香叶油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ゼラニウム油
+                        </a>
+                        <a href="/static/documents/MSDS-Damask Rose Oil大马士革玫瑰油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ダマスクローズ油
+                        </a>
+                        <a href="/static/documents/MSDS-Magnolia flower oil白兰花油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ハクモクレン油
+                        </a>
+                    </div>
+                    <p style="margin-top: 1.5rem; color: var(--text-gray); font-size: 0.9rem;">
+                        その他の製品MSDSについては、お問い合わせください。
+                    </p>
+                </div>
+
+                <!-- Certifications -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        ✓ 認証書類
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        国際品質認証、安全管理認証の証明書類
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ ISO 9001
+                        </a>
+                        <a href="/static/documents/HACCP認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ HACCP
+                        </a>
+                        <a href="/static/documents/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ Kosher
+                        </a>
+                        <a href="/static/documents/商品測定レポート.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ 測定レポート
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/">ホーム</a>
+            <a href="/products/nuts-food">健康・美容食品</a>
+            <a href="/products/coffee">スペシャルティコーヒー</a>
+            <a href="/products/flowers">プレミアム花卉</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+`
+
+export const essentialOilsPageEN = () => `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Oils | Fvnix LLC.</title>
+    <meta name="description" content="World's leading supplier of natural essential oils with 40%+ global market share in Eucalyptus oil. ISO 9001, REACH, KOSHER certified.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-green: #2d5f3f;
+            --secondary-green: #4a7c59;
+            --light-green: #e8f4ea;
+            --accent-gold: #b8934f;
+            --text-dark: #1a1a1a;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+        }
+        header {
+            background: var(--primary-green);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        nav a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: white; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-left: 2rem;
+        }
+        .lang-switcher a {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s;
+            margin-left: 0 !important;
+        }
+        .lang-switcher a:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: white;
+            color: white;
+        }
+        .lang-switcher a.active {
+            background: white;
+            color: var(--primary-green);
+            border-color: white;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.4rem; margin-bottom: 1rem; font-weight: 500; font-family: 'Noto Serif', serif; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.95; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--primary-green);
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: 500;
+            font-family: 'Noto Serif', serif;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        .product-code {
+            background: var(--light-green);
+            color: var(--primary-green);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .product-name {
+            font-size: 1.3rem;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .product-latin {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .product-desc {
+            color: var(--text-gray);
+            line-height: 1.9;
+            font-size: 0.95rem;
+        }
+        .stats {
+            background: var(--bg-light);
+            padding: 3rem 2rem;
+            margin: 3rem 0;
+            border-radius: 16px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+        }
+        .stat-label { color: var(--text-gray); font-size: 0.95rem; }
+        footer {
+            background: var(--primary-green);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        footer a { color: rgba(255,255,255,0.8); text-decoration: none; margin: 0 1rem; }
+        footer a:hover { color: white; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .products-grid { grid-template-columns: 1fr; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/en" class="logo">Fvnix LLC.</a>
+            <nav>
+                <a href="/en">Home</a>
+                <a href="/en/products/essential-oils">Essential Oils</a>
+                <a href="/en/products/nuts-food">Nuts & Food</a>
+                <a href="/en/products/coffee">Specialty Coffee</a>
+                <a href="/en/products/flowers">Premium Flowers</a>
+                <div class="lang-switcher">
+                    <a href="/products/essential-oils">JP</a>
+                    <a href="/en/products/essential-oils" class="active">EN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Essential Oils & Natural Aromatics</h1>
+        <p>World-class quality from Yunnan Highland. 100% pure natural essential oils trusted globally.</p>
+    </section>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">40%+</div>
+                    <div class="stat-label">Eucalyptus Oil<br>Global Market Share (No.1)</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">Cassia Oil<br>Global Market Share (Top 3)</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">Tea Tree Oil<br>Global Market Share (Top 2)</div>
+                </div>
+                <div>
+                    <div class="stat-number">48+</div>
+                    <div class="stat-label">Product Portfolio<br>PH001-PH048</div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Featured Products</h2>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <span class="product-code">PH001</span>
+                <h3 class="product-name">White Orchid Oil</h3>
+                <p class="product-latin">Michelia Alba / INCI: MICHELIA ALBA FLOWER OIL</p>
+                <p class="product-desc">
+                    Rich floral note with exotic sweetness. Main components: Linalool, Benzyl Acetate.
+                    A traditional Chinese fixative with intoxicating floral characteristics.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH002</span>
+                <h3 class="product-name">Neroli Oil</h3>
+                <p class="product-latin">Citrus Aurantium Amara / Bitter Orange Flower</p>
+                <p class="product-desc">
+                    Delicate floral-citrus middle note. Main components: Linalool, Linalyl Acetate, Limonene.
+                    Classic perfumery material with honey-like floral-green nuances and subtle bitterness.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH003</span>
+                <h3 class="product-name">Jasmine Absolute</h3>
+                <p class="product-latin">Jasminum Grandiflorum / Solvent Extraction</p>
+                <p class="product-desc">
+                    High-concentration aromatic obtained by solvent extraction. Rich and sweet floral scent,
+                    known as the "King of Fragrance". Core ingredient in luxury perfumes.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH004</span>
+                <h3 class="product-name">Osmanthus Absolute</h3>
+                <p class="product-latin">Osmanthus Fragrans / Solvent Extraction</p>
+                <p class="product-desc">
+                    High-concentration aromatic by solvent extraction. Fruity and sweet intertwined,
+                    characteristic rich aroma of osmanthus announcing autumn.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH015</span>
+                <h3 class="product-name">Eucalyptus Globulus Oil</h3>
+                <p class="product-latin">Blue Gum / Global Market Share 40%+</p>
+                <p class="product-desc">
+                    Extremely strong penetrating power, cooling sensation, camphoraceous scent.
+                    Rich in 1,8-cineole, classic ingredient for respiratory care products. World's No.1 market share.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH018</span>
+                <h3 class="product-name">Tea Tree Oil</h3>
+                <p class="product-latin">Melaleuca Alternifolia / Global Top 2</p>
+                <p class="product-desc">
+                    Fresh, spicy, medicinal clean scent. Known for broad-spectrum antibacterial and antiviral properties.
+                    Star ingredient for acne treatment and skin care. Global market share Top 2.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH024</span>
+                <h3 class="product-name">Cassia Oil (Chinese Cinnamon)</h3>
+                <p class="product-latin">Cinnamomum Cassia / Global Top 3</p>
+                <p class="product-desc">
+                    Bark and leaf oil from Lauraceae cinnamon. Spicy, sweet, warm scent with excellent fixative properties
+                    and warming sensation. Global market share Top 3 product.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH005-PH048</span>
+                <h3 class="product-name">40+ Additional Products</h3>
+                <p class="product-latin">Complete Product Database</p>
+                <p class="product-desc">
+                    Lavender, Patchouli, Rosemary, Ginger Oil, Litsea Cubeba Oil and more.
+                    Diverse natural essential oil product lineup. See product catalog for details.
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem; text-align: center;">
+            <h2 class="section-title">International Certifications & Quality Assurance</h2>
+            <p style="max-width: 800px; margin: 2rem auto; color: var(--text-gray); line-height: 2;">
+                All products are certified with ISO 9001, REACH, KOSHER, HACCP, cGMP and other international standards.
+                Complete traceability management ensures consistent quality assurance from seed selection to product shipment.
+            </p>
+            <a href="/en#contact" style="
+                display: inline-block;
+                background: var(--primary-green);
+                color: white;
+                padding: 1rem 3rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 500;
+                margin-top: 2rem;
+            ">Request Sample / Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Product Catalog Downloads Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">Product Catalog & Documentation Downloads</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                Download our product database, Material Safety Data Sheets (MSDS), and certification documents.
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Main Product Database -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 Complete Product Database
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        Comprehensive catalog of 48+ products (PH001-PH098) with detailed specifications, CAS numbers, and technical data
+                    </p>
+                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+                        Download (PDF)
+                    </a>
+                </div>
+
+                <!-- MSDS Documents -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📄 Material Safety Data Sheets (MSDS)
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        Safety information, handling precautions, and chemical composition data for each product
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/MSDS-Eucalyptus Citriodora Oil柠檬桉油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Eucalyptus Citriodora
+                        </a>
+                        <a href="/static/documents/MSDS-Cassia Oil桂油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Cassia Oil
+                        </a>
+                        <a href="/static/documents/MSDS-Jasmine Absolute茉莉花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Jasmine Absolute
+                        </a>
+                        <a href="/static/documents/MSDS-Osmanthus Absolute桂花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Osmanthus Absolute
+                        </a>
+                        <a href="/static/documents/MSDS-Lavender Oil薰衣草油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Lavender Oil
+                        </a>
+                        <a href="/static/documents/MSDS-Geranium Oil香叶油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Geranium Oil
+                        </a>
+                        <a href="/static/documents/MSDS-Damask Rose Oil大马士革玫瑰油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Damask Rose Oil
+                        </a>
+                        <a href="/static/documents/MSDS-Magnolia flower oil白兰花油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Magnolia Flower Oil
+                        </a>
+                    </div>
+                    <p style="margin-top: 1.5rem; color: var(--text-gray); font-size: 0.9rem;">
+                        For MSDS of other products, please contact us.
+                    </p>
+                </div>
+
+                <!-- Certifications -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        ✓ Certifications
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        International quality and safety management certification documents
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ ISO 9001
+                        </a>
+                        <a href="/static/documents/HACCP認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ HACCP
+                        </a>
+                        <a href="/static/documents/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ Kosher
+                        </a>
+                        <a href="/static/documents/商品測定レポート.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ Test Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/en">Home</a>
+            <a href="/en/products/nuts-food">Nuts & Food</a>
+            <a href="/en/products/coffee">Specialty Coffee</a>
+            <a href="/en/products/flowers">Premium Flowers</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+`
