@@ -38,26 +38,38 @@ export const essentialOilsPageJA = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -68,7 +80,7 @@ export const essentialOilsPageJA = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -187,11 +199,12 @@ export const essentialOilsPageJA = () => `
                 <a href="/products/nuts-food">健康・美容食品</a>
                 <a href="/products/coffee">スペシャルティコーヒー</a>
                 <a href="/products/flowers">プレミアム花卉</a>
-                <div class="lang-switcher">
-                    <a href="/products/essential-oils" class="active">JP</a>
-                    <a href="/en/products/essential-oils">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/essential-oils" class="active">日本語</a>
+                <a href="/en/products/essential-oils">English</a>
+                <a href="/zh/products/essential-oils">繁體中文</a>
+            </div>
         </div>
     </header>
 
@@ -468,26 +481,38 @@ export const essentialOilsPageEN = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -498,7 +523,7 @@ export const essentialOilsPageEN = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -617,11 +642,12 @@ export const essentialOilsPageEN = () => `
                 <a href="/en/products/nuts-food">Nuts & Food</a>
                 <a href="/en/products/coffee">Specialty Coffee</a>
                 <a href="/en/products/flowers">Premium Flowers</a>
-                <div class="lang-switcher">
-                    <a href="/products/essential-oils">JP</a>
-                    <a href="/en/products/essential-oils" class="active">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/essential-oils">日本語</a>
+                <a href="/en/products/essential-oils" class="active">English</a>
+                <a href="/zh/products/essential-oils">繁體中文</a>
+            </div>
         </div>
     </header>
 

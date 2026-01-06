@@ -39,26 +39,38 @@ export const flowersPageJA = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -69,7 +81,7 @@ export const flowersPageJA = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -78,7 +90,7 @@ export const flowersPageJA = () => `
         }
         .lang-switcher a.active {
             background: white;
-            color: var(--primary-green);
+            color: var(--flower-pink);
             border-color: white;
         }
         .hero {
@@ -224,11 +236,12 @@ export const flowersPageJA = () => `
                 <a href="/products/nuts-food">健康・美容食品</a>
                 <a href="/products/coffee">スペシャルティコーヒー</a>
                 <a href="/products/flowers">プレミアム花卉</a>
-                <div class="lang-switcher">
-                    <a href="/products/flowers" class="active">JP</a>
-                    <a href="/en/products/flowers">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/flowers" class="active">日本語</a>
+                <a href="/en/products/flowers">English</a>
+                <a href="/zh/products/flowers">繁體中文</a>
+            </div>
         </div>
     </header>
 
@@ -519,26 +532,38 @@ export const flowersPageEN = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -549,7 +574,7 @@ export const flowersPageEN = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -558,7 +583,7 @@ export const flowersPageEN = () => `
         }
         .lang-switcher a.active {
             background: white;
-            color: var(--primary-green);
+            color: var(--flower-pink);
             border-color: white;
         }
         .hero {
@@ -704,11 +729,12 @@ export const flowersPageEN = () => `
                 <a href="/en/products/nuts-food">Nuts & Food</a>
                 <a href="/en/products/coffee">Specialty Coffee</a>
                 <a href="/en/products/flowers">Premium Flowers</a>
-                <div class="lang-switcher">
-                    <a href="/products/flowers">JP</a>
-                    <a href="/en/products/flowers" class="active">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/flowers">日本語</a>
+                <a href="/en/products/flowers" class="active">English</a>
+                <a href="/zh/products/flowers">繁體中文</a>
+            </div>
         </div>
     </header>
 

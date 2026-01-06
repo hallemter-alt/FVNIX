@@ -39,26 +39,38 @@ export const coffeePageJA = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -69,7 +81,7 @@ export const coffeePageJA = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -78,7 +90,7 @@ export const coffeePageJA = () => `
         }
         .lang-switcher a.active {
             background: white;
-            color: var(--primary-green);
+            color: var(--coffee-brown);
             border-color: white;
         }
         .hero {
@@ -203,11 +215,12 @@ export const coffeePageJA = () => `
                 <a href="/products/nuts-food">健康・美容食品</a>
                 <a href="/products/coffee">スペシャルティコーヒー</a>
                 <a href="/products/flowers">プレミアム花卉</a>
-                <div class="lang-switcher">
-                    <a href="/products/coffee" class="active">JP</a>
-                    <a href="/en/products/coffee">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/coffee" class="active">日本語</a>
+                <a href="/en/products/coffee">English</a>
+                <a href="/zh/products/coffee">繁體中文</a>
+            </div>
         </div>
     </header>
 
@@ -433,26 +446,38 @@ export const coffeePageEN = () => `
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 2rem;
         }
-        .logo { font-size: 1.2rem; font-weight: 500; color: white; text-decoration: none; }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
         nav a {
             color: rgba(255,255,255,0.9);
             text-decoration: none;
-            margin-left: 2rem;
             font-weight: 500;
             transition: color 0.3s;
+            white-space: nowrap;
         }
         nav a:hover { color: white; }
         .lang-switcher {
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: 2rem;
         }
         .lang-switcher a {
             padding: 0.4rem 0.8rem;
@@ -463,7 +488,7 @@ export const coffeePageEN = () => `
             font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s;
-            margin-left: 0 !important;
+            white-space: nowrap;
         }
         .lang-switcher a:hover {
             background: rgba(255,255,255,0.2);
@@ -472,7 +497,7 @@ export const coffeePageEN = () => `
         }
         .lang-switcher a.active {
             background: white;
-            color: var(--primary-green);
+            color: var(--coffee-brown);
             border-color: white;
         }
         .hero {
@@ -597,11 +622,12 @@ export const coffeePageEN = () => `
                 <a href="/en/products/nuts-food">Nuts & Food</a>
                 <a href="/en/products/coffee">Specialty Coffee</a>
                 <a href="/en/products/flowers">Premium Flowers</a>
-                <div class="lang-switcher">
-                    <a href="/products/coffee">JP</a>
-                    <a href="/en/products/coffee" class="active">EN</a>
-                </div>
             </nav>
+            <div class="lang-switcher">
+                <a href="/products/coffee">日本語</a>
+                <a href="/en/products/coffee" class="active">English</a>
+                <a href="/zh/products/coffee">繁體中文</a>
+            </div>
         </div>
     </header>
 
