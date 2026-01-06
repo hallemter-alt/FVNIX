@@ -812,3 +812,278 @@ export const coffeePageEN = () => `
 </body>
 </html>
 `
+
+export const coffeePageZH = () => `
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特級咖啡 | 合同會社鳳凰</title>
+    <meta name="description" content="雲南高原特級咖啡。與夏威夷科納、牙買加藍山齊名的世界最高級產地。100%阿拉比卡種，海拔1,200~2,000m種植。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --coffee-brown: #6F4E37;
+            --coffee-light: #A67B5B;
+            --coffee-bg: #FFF8F0;
+            --accent-gold: #D4AF37;
+            --text-dark: #2C1810;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif TC', 'Microsoft JhengHei', 'PMingLiU', serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+        }
+        header {
+            background: var(--coffee-brown);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .logo a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        .logo a:hover {
+            opacity: 0.9;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex: 1;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        nav a:hover { opacity: 0.8; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .lang-switcher a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .lang-switcher a:hover {
+            background-color: rgba(255,255,255,0.15);
+        }
+        .lang-switcher a.active {
+            background-color: rgba(255,255,255,0.25);
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--coffee-brown) 0%, var(--coffee-light) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: 0.03em;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            color: var(--coffee-brown);
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+        }
+        .feature-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--coffee-brown);
+        }
+        .feature-card .spec {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .feature-card .spec::before {
+            content: "☕";
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        footer a:hover {
+            opacity: 1;
+        }
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .lang-switcher {
+                flex-direction: row;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/zh-tw">Fvnix LLC.</a>
+            </div>
+            <nav>
+                <a href="/zh-tw">首頁</a>
+                <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+                <a href="/zh-tw/products/nuts-food">健康美容食品</a>
+                <a href="/zh-tw/products/coffee">特級咖啡</a>
+                <a href="/zh-tw/products/flowers">優質花卉</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="/products/coffee">日本語</a>
+                <a href="/en/products/coffee">English</a>
+                <a href="/zh-tw/products/coffee" class="active">繁體中文</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>☕ 特級咖啡</h1>
+        <p>雲南高原特級咖啡。與夏威夷科納、牙買加藍山齊名的世界最高級產地。100%阿拉比卡種，海拔1,200〜2,000m種植。</p>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">產品特性</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>世界三大咖啡產地之一</h3>
+                <div class="spec">產地：雲南省普洱、保山地區</div>
+                <div class="spec">與夏威夷科納、牙買加藍山齊名</div>
+                <div class="spec">北緯25度，世界最佳咖啡產區</div>
+                <div class="spec">晝夜溫差大，孕育出優質風味</div>
+            </div>
+
+            <div class="feature-card">
+                <h3>100%阿拉比卡種</h3>
+                <div class="spec">品種：純正阿拉比卡種</div>
+                <div class="spec">海拔：1,200〜2,000m高地種植</div>
+                <div class="spec">酸味柔和，香氣豐富</div>
+                <div class="spec">口感醇厚，回味悠長</div>
+            </div>
+
+            <div class="feature-card">
+                <h3>品質保證</h3>
+                <div class="spec">完整產地追溯系統</div>
+                <div class="spec">專業烘焙技術指導</div>
+                <div class="spec">適合：精品咖啡館、烘焙工坊</div>
+                <div class="spec">提供生豆及烘焙豆</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">雲南高原的咖啡文化</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; line-height: 1.8;">
+            雲南咖啡種植歷史超過百年，北緯25度的地理位置、高海拔、充足日照與適度降雨，
+            創造出與夏威夷科納、牙買加藍山齊名的世界級咖啡產地。
+            我們精選海拔1,200〜2,000m高地種植的100%阿拉比卡種，將雲南高原的獨特風味，
+            原汁原味地送達日本市場。
+        </p>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/zh-tw">首頁</a>
+            <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+            <a href="/zh-tw/products/nuts-food">健康美容食品</a>
+            <a href="/zh-tw/products/flowers">優質花卉</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. 版權所有。</p>
+    </footer>
+</body>
+</html>
+`

@@ -884,3 +884,355 @@ export const essentialOilsPageEN = () => `
 </body>
 </html>
 `
+
+export const essentialOilsPageZH = () => `
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精油・天然香料 | Fvnix 合同會社</title>
+    <meta name="description" content="全球市佔率40%+的尤加利精油領導供應商。提供48種以上高品質天然精油產品。獲ISO 9001、REACH、KOSHER認證。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-green: #2d5f3f;
+            --secondary-green: #4a7c59;
+            --light-green: #e8f4ea;
+            --accent-gold: #b8934f;
+            --text-dark: #1a1a1a;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif TC', '微軟正黑體', 'Microsoft JhengHei', serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+        }
+        header {
+            background: var(--primary-green);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            color: white; 
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            white-space: nowrap;
+        }
+        nav a:hover { color: white; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        .lang-switcher a {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .lang-switcher a:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: white;
+            color: white;
+        }
+        .lang-switcher a.active {
+            background: white;
+            color: var(--primary-green);
+            border-color: white;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.4rem; margin-bottom: 1rem; font-weight: 500; font-family: 'Noto Serif TC', serif; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.95; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--primary-green);
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: 500;
+            font-family: 'Noto Serif TC', serif;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        .product-code {
+            background: var(--light-green);
+            color: var(--primary-green);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .product-name {
+            font-size: 1.3rem;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .product-latin {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .product-desc {
+            color: var(--text-gray);
+            line-height: 1.9;
+            font-size: 0.95rem;
+        }
+        .stats {
+            background: var(--bg-light);
+            padding: 3rem 2rem;
+            margin: 3rem 0;
+            border-radius: 16px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+        }
+        .stat-label { color: var(--text-gray); font-size: 0.95rem; }
+        footer {
+            background: var(--primary-green);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        footer a { color: rgba(255,255,255,0.8); text-decoration: none; margin: 0 1rem; }
+        footer a:hover { color: white; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .products-grid { grid-template-columns: 1fr; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/zh-tw" class="logo">Fvnix 合同會社</a>
+            <nav>
+                <a href="/zh-tw">首頁</a>
+                <a href="/zh-tw/products/essential-oils">精油・天然香料</a>
+                <a href="/zh-tw/products/nuts-food">堅果・健康食品</a>
+                <a href="/zh-tw/products/coffee">特色咖啡</a>
+                <a href="/zh-tw/products/flowers">頂級花卉</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="/products/essential-oils">日本語</a>
+                <a href="/en/products/essential-oils">English</a>
+                <a href="/zh-tw/products/essential-oils" class="active">繁體中文</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>精油・天然香料</h1>
+        <p>來自雲南高原的世界級品質。全球信賴的100%純天然精油。</p>
+    </section>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">40%+</div>
+                    <div class="stat-label">尤加利精油<br>全球市佔率（世界第一）</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">桂油<br>全球市佔率（世界前三）</div>
+                </div>
+                <div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">茶樹精油<br>全球市佔率（世界前二）</div>
+                </div>
+                <div>
+                    <div class="stat-number">48+</div>
+                    <div class="stat-label">產品系列<br>PH001-PH048</div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">主要產品系列</h2>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <span class="product-code">PH001</span>
+                <h3 class="product-name">白蘭花油</h3>
+                <p class="product-latin">Michelia Alba / 白蘭花油</p>
+                <p class="product-desc">
+                    富含異國甜味的豐富花香調。主要成分：芳樟醇、乙酸苄酯。
+                    中國傳統定香劑，具有令人陶醉的花香特性。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH002</span>
+                <h3 class="product-name">橙花精油（玳玳花油）</h3>
+                <p class="product-latin">Citrus Aurantium Amara / 玳玳花油</p>
+                <p class="product-desc">
+                    精緻的花香柑橘中調。主要成分：芳樟醇、乙酸芳樟酯、檸檬烯。
+                    經典調香材料，帶有蜂蜜般的花香綠色氣息與微妙苦味。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH003</span>
+                <h3 class="product-name">茉莉原精</h3>
+                <p class="product-latin">Jasmin Absolute / 茉莉花淨油</p>
+                <p class="product-desc">
+                    溶劑萃取法獲得的高濃度芳香物質。濃郁甜美的花香，被譽為「香氛之王」。
+                    高級香水的核心重要原料。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH004</span>
+                <h3 class="product-name">桂花原精</h3>
+                <p class="product-latin">Osmanthus Absolute / 桂花淨油</p>
+                <p class="product-desc">
+                    溶劑萃取法獲得的高濃度芳香物質。果香與甜味交織，
+                    秋天報信的桂花特有醇厚香氣。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH015</span>
+                <h3 class="product-name">藍桉葉油（尤加利）</h3>
+                <p class="product-latin">Eucalyptus Globulus / 全球市佔率40%+</p>
+                <p class="product-desc">
+                    極強穿透力、清涼感、樟腦氣息。富含1,8-桉葉素，
+                    呼吸系統護理產品的經典成分。全球市佔率第一產品。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH018</span>
+                <h3 class="product-name">茶樹精油</h3>
+                <p class="product-latin">Melaleuca Alternifolia / 全球前二</p>
+                <p class="product-desc">
+                    清新、辛辣、藥草般的潔淨香氣。以廣譜抗菌、抗病毒特性聞名，
+                    痘痘護理與皮膚護理的明星成分。全球市佔率前二。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH024</span>
+                <h3 class="product-name">桂皮油（肉桂）</h3>
+                <p class="product-latin">Cinnamomum Cassia / 全球前三</p>
+                <p class="product-desc">
+                    樟科肉桂的樹皮・枝葉精油。香氣辛辣甜暖、極佳的留香性與溫暖感。
+                    全球市佔率前三產品。
+                </p>
+            </div>
+
+            <div class="product-card">
+                <span class="product-code">PH005-PH048</span>
+                <h3 class="product-name">其他40種以上產品</h3>
+                <p class="product-latin">Complete Product Database</p>
+                <p class="product-desc">
+                    薰衣草、廣藿香、迷迭香、生薑油、山雞椒油等，
+                    多樣天然精油產品系列。詳情請參閱產品目錄。
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem; text-align: center;">
+            <h2 class="section-title">國際認證・品質保證</h2>
+            <p style="max-width: 800px; margin: 2rem auto; color: var(--text-gray); line-height: 2;">
+                所有產品皆已取得ISO 9001、REACH、KOSHER、HACCP、cGMP等國際認證。
+                透過完整的可追溯性管理，從種子選定到產品出貨實現一貫的品質保證。
+            </p>
+            <a href="/zh-tw#contact" style="
+                display: inline-block;
+                background: var(--primary-green);
+                color: white;
+                padding: 1rem 3rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 500;
+                margin-top: 2rem;
+            ">樣品申請・聯絡我們</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/zh-tw">首頁</a>
+            <a href="/zh-tw/products/nuts-food">堅果・健康食品</a>
+            <a href="/zh-tw/products/coffee">特色咖啡</a>
+            <a href="/zh-tw/products/flowers">頂級花卉</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. 版權所有。</p>
+    </footer>
+</body>
+</html>
+`

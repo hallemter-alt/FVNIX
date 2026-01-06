@@ -983,3 +983,281 @@ export const flowersPageEN = () => `
 </body>
 </html>
 `
+
+export const flowersPageZH = () => `
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>優質花卉 | 合同會社鳳凰</title>
+    <meta name="description" content="雲南高原優質花卉。海拔1,800~3,000m種植，日照充足、氣候適宜。食用花卉、裝飾花卉等多種品項。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --flower-pink: #E91E63;
+            --flower-light: #F48FB1;
+            --flower-bg: #FFF0F5;
+            --accent-gold: #FFB300;
+            --text-dark: #1a1a1a;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif TC', 'Microsoft JhengHei', 'PMingLiU', serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+        }
+        header {
+            background: var(--flower-pink);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .logo a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        .logo a:hover {
+            opacity: 0.9;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex: 1;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        nav a:hover { opacity: 0.8; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .lang-switcher a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .lang-switcher a:hover {
+            background-color: rgba(255,255,255,0.15);
+        }
+        .lang-switcher a.active {
+            background-color: rgba(255,255,255,0.25);
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--flower-pink) 0%, var(--flower-light) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: 0.03em;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            color: var(--flower-pink);
+        }
+        .flower-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+        .flower-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .flower-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+        }
+        .flower-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--flower-pink);
+        }
+        .flower-card .spec {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .flower-card .spec::before {
+            content: "🌸";
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        footer a:hover {
+            opacity: 1;
+        }
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .lang-switcher {
+                flex-direction: row;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .flower-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/zh-tw">Fvnix LLC.</a>
+            </div>
+            <nav>
+                <a href="/zh-tw">首頁</a>
+                <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+                <a href="/zh-tw/products/nuts-food">健康美容食品</a>
+                <a href="/zh-tw/products/coffee">特級咖啡</a>
+                <a href="/zh-tw/products/flowers">優質花卉</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="/products/flowers">日本語</a>
+                <a href="/en/products/flowers">English</a>
+                <a href="/zh-tw/products/flowers" class="active">繁體中文</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>🌸 優質花卉</h1>
+        <p>雲南高原優質花卉。海拔1,800〜3,000m種植，日照充足、氣候適宜。食用花卉、裝飾花卉等多種品項。</p>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">產品特性</h2>
+        <div class="flower-grid">
+            <div class="flower-card">
+                <h3>食用花卉</h3>
+                <div class="spec">玫瑰花瓣（食用級）</div>
+                <div class="spec">茉莉花（茶用、食用）</div>
+                <div class="spec">桂花（食用、香料用）</div>
+                <div class="spec">適合：花茶、糕點、料理裝飾</div>
+                <div class="spec">完整品質檢測，安全認證</div>
+            </div>
+
+            <div class="flower-card">
+                <h3>裝飾花卉</h3>
+                <div class="spec">高原鮮花（玫瑰、百合等）</div>
+                <div class="spec">海拔1,800〜3,000m種植</div>
+                <div class="spec">色澤鮮艷，保鮮期長</div>
+                <div class="spec">適合：花束、花藝設計</div>
+                <div class="spec">全年穩定供應體制</div>
+            </div>
+
+            <div class="flower-card">
+                <h3>品質保證</h3>
+                <div class="spec">清淨高原環境種植</div>
+                <div class="spec">無農藥殘留（食用花卉）</div>
+                <div class="spec">完整產地追溯系統</div>
+                <div class="spec">食品安全認證（食用級）</div>
+                <div class="spec">定期品質檢測報告</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">雲南高原的花卉王國</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; line-height: 1.8;">
+            雲南被譽為「植物王國」，擁有豐富的花卉資源。海拔1,800〜3,000m的高原氣候，
+            日照充足、晝夜溫差大，孕育出色彩鮮艷、香氣濃郁的優質花卉。
+            我們提供食用級花卉及裝飾花卉，嚴格品質管理，將雲南高原的花卉之美，
+            原汁原味地送達日本市場。
+        </p>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/zh-tw">首頁</a>
+            <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+            <a href="/zh-tw/products/nuts-food">健康美容食品</a>
+            <a href="/zh-tw/products/coffee">特級咖啡</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. 版權所有。</p>
+    </footer>
+</body>
+</html>
+`

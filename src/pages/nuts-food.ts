@@ -876,3 +876,282 @@ export const nutsFoodPageEN = () => `
 </body>
 </html>
 `
+
+export const nutsFoodPageZH = () => `
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康美容食品 | 合同會社鳳凰</title>
+    <meta name="description" content="雲南高原核桃油及夏威夷果。海拔1,500~2,500m種植，富含Omega-3，完整品質管理。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-color: #c17233;
+            --secondary-color: #d4884f;
+            --light-color: #fef4ed;
+            --accent-gold: #b8934f;
+            --text-dark: #1a1a1a;
+            --text-gray: #666666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Noto Serif TC', 'Microsoft JhengHei', 'PMingLiU', serif;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            letter-spacing: 0.02em;
+        }
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+        .logo { 
+            font-size: 1.2rem; 
+            font-weight: 500; 
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .logo a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        .logo a:hover {
+            opacity: 0.9;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex: 1;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        nav a:hover { opacity: 0.8; }
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .lang-switcher a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .lang-switcher a:hover {
+            background-color: rgba(255,255,255,0.15);
+        }
+        .lang-switcher a.active {
+            background-color: rgba(255,255,255,0.25);
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: 0.03em;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+        }
+        .product-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .product-card .spec {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .product-card .spec::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        footer a:hover {
+            opacity: 1;
+        }
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .lang-switcher {
+                flex-direction: row;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/zh-tw">Fvnix LLC.</a>
+            </div>
+            <nav>
+                <a href="/zh-tw">首頁</a>
+                <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+                <a href="/zh-tw/products/nuts-food">健康美容食品</a>
+                <a href="/zh-tw/products/coffee">特級咖啡</a>
+                <a href="/zh-tw/products/flowers">優質花卉</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="/products/nuts-food">日本語</a>
+                <a href="/en/products/nuts-food">English</a>
+                <a href="/zh-tw/products/nuts-food" class="active">繁體中文</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>🥜 健康美容食品</h1>
+        <p>雲南高原核桃油及夏威夷果。海拔1,500〜2,500m種植，富含Omega-3脂肪酸，完整品質管理體制。</p>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">產品特性</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>雲南高原核桃油</h3>
+                <div class="spec">原產地：雲南省迪慶、麗江地區</div>
+                <div class="spec">海拔：1,500〜2,500m</div>
+                <div class="spec">富含Omega-3脂肪酸（α-亞麻酸）</div>
+                <div class="spec">冷壓榨取法，保留天然營養</div>
+                <div class="spec">適合：美容保健、嬰幼兒營養補充</div>
+            </div>
+
+            <div class="product-card">
+                <h3>雲南夏威夷果</h3>
+                <div class="spec">品種：100%優質夏威夷果品種</div>
+                <div class="spec">種植面積：10,000畝（約670公頃）</div>
+                <div class="spec">富含單元不飽和脂肪酸</div>
+                <div class="spec">天然口感，無添加加工</div>
+                <div class="spec">適合：零食、烘焙材料、營養補充</div>
+            </div>
+
+            <div class="product-card">
+                <h3>品質保證</h3>
+                <div class="spec">ISO 9001 品質管理系統認證</div>
+                <div class="spec">HACCP 食品安全管理認證</div>
+                <div class="spec">Kosher 認證（猶太教潔食認證）</div>
+                <div class="spec">完整產品追溯系統</div>
+                <div class="spec">定期品質檢測報告</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">雲南高原的恩賜</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; line-height: 1.8;">
+            雲南高原海拔1,500〜2,500m的清淨環境，孕育出世界級的優質核桃與夏威夷果。
+            晝夜溫差大、日照充足的自然條件，使果實富含營養成分。
+            我們堅持完整的品質管理體制，將雲南高原的恩賜，原汁原味地送達日本市場。
+        </p>
+    </div>
+
+    <footer>
+        <p>
+            <a href="/zh-tw">首頁</a>
+            <a href="/zh-tw/products/essential-oils">芳香·天然香料</a>
+            <a href="/zh-tw/products/coffee">特級咖啡</a>
+            <a href="/zh-tw/products/flowers">優質花卉</a>
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. 版權所有。</p>
+    </footer>
+</body>
+</html>
+`

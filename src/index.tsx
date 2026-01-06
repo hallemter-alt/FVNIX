@@ -1498,10 +1498,10 @@ app.get('/', (c) => {
 })
 
 // Import product pages
-import { essentialOilsPageJA, essentialOilsPageEN } from './pages/essential-oils'
-import { nutsFoodPageJA, nutsFoodPageEN } from './pages/nuts-food'
-import { coffeePageJA, coffeePageEN } from './pages/coffee'
-import { flowersPageJA, flowersPageEN } from './pages/flowers'
+import { essentialOilsPageJA, essentialOilsPageEN, essentialOilsPageZH } from './pages/essential-oils'
+import { nutsFoodPageJA, nutsFoodPageEN, nutsFoodPageZH } from './pages/nuts-food'
+import { coffeePageJA, coffeePageEN, coffeePageZH } from './pages/coffee'
+import { flowersPageJA, flowersPageEN, flowersPageZH } from './pages/flowers'
 
 // Japanese product pages
 app.get('/products/essential-oils', (c) => c.html(essentialOilsPageJA()))
@@ -1515,11 +1515,11 @@ app.get('/en/products/nuts-food', (c) => c.html(nutsFoodPageEN()))
 app.get('/en/products/coffee', (c) => c.html(coffeePageEN()))
 app.get('/en/products/flowers', (c) => c.html(flowersPageEN()))
 
-// Traditional Chinese product pages (redirect to English for now)
-app.get('/zh-tw/products/essential-oils', (c) => c.html(essentialOilsPageEN()))
-app.get('/zh-tw/products/nuts-food', (c) => c.html(nutsFoodPageEN()))
-app.get('/zh-tw/products/coffee', (c) => c.html(coffeePageEN()))
-app.get('/zh-tw/products/flowers', (c) => c.html(flowersPageEN()))
+// Traditional Chinese product pages
+app.get('/zh-tw/products/essential-oils', (c) => c.html(essentialOilsPageZH()))
+app.get('/zh-tw/products/nuts-food', (c) => c.html(nutsFoodPageZH()))
+app.get('/zh-tw/products/coffee', (c) => c.html(coffeePageZH()))
+app.get('/zh-tw/products/flowers', (c) => c.html(flowersPageZH()))
 
 // Traditional Chinese (Taiwan) home page
 app.get('/zh-tw', (c) => {
