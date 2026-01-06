@@ -358,7 +358,7 @@ export const essentialOilsPageJA = () => `
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
                         FNX001〜FNX063 全63製品以上の詳細情報、CAS番号、製品仕様を収録
                     </p>
-                    <a href="/static/documents/天然精油仕様カタログ20251212.pdf" 
+                    <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
@@ -414,16 +414,16 @@ export const essentialOilsPageJA = () => `
                         国際品質認証、安全管理認証の証明書類
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/ISO9001-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ ISO 9001
                         </a>
-                        <a href="/static/documents/HACCP認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/HACCP-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ HACCP
                         </a>
-                        <a href="/static/documents/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/Kosher-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ Kosher
                         </a>
-                        <a href="/static/documents/商品測定レポート.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/Product-Test-Report.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ 測定レポート
                         </a>
                     </div>
@@ -804,7 +804,7 @@ export const essentialOilsPageEN = () => `
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
                         Comprehensive catalog of 63+ products (FNX001-FNX063) with detailed specifications, CAS numbers, and technical data
                     </p>
-                    <a href="/static/documents/天然精油仕様カタログ20251212.pdf" 
+                    <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
@@ -860,16 +860,16 @@ export const essentialOilsPageEN = () => `
                         International quality and safety management certification documents
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/ISO9001-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ ISO 9001
                         </a>
-                        <a href="/static/documents/HACCP認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/HACCP-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ HACCP
                         </a>
-                        <a href="/static/documents/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/Kosher-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ Kosher
                         </a>
-                        <a href="/static/documents/商品測定レポート.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/Product-Test-Report.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ Test Report
                         </a>
                     </div>
