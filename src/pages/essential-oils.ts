@@ -5,7 +5,7 @@ export const essentialOilsPageJA = () => `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>アロマ・天然香料 | 合同会社フェニックス</title>
-    <meta name="description" content="世界シェア40%+のユーカリ油をはじめ、48製品以上の高品質天然精油を供給。ISO 9001、REACH、KOSHER認証取得済み。">
+    <meta name="description" content="世界シェア40%+のユーカリ油をはじめ、63製品以上の高品質天然精油を供給。ISO 9001、REACH、KOSHER認証取得済み。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -232,8 +232,8 @@ export const essentialOilsPageJA = () => `
                     <div class="stat-label">ティーツリー油<br>世界シェア（Global Top 2）</div>
                 </div>
                 <div>
-                    <div class="stat-number">48+</div>
-                    <div class="stat-label">製品ラインナップ<br>PH001-PH048</div>
+                    <div class="stat-number">63+</div>
+                    <div class="stat-label">製品ラインナップ<br>FNX001-FNX063</div>
                 </div>
             </div>
         </div>
@@ -242,7 +242,7 @@ export const essentialOilsPageJA = () => `
 
         <div class="products-grid">
             <div class="product-card">
-                <span class="product-code">PH001</span>
+                <span class="product-code">FNX001</span>
                 <h3 class="product-name">ホワイトオーキッド油</h3>
                 <p class="product-latin">Michelia Alba / 白蘭花油</p>
                 <p class="product-desc">
@@ -252,7 +252,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH002</span>
+                <span class="product-code">FNX002</span>
                 <h3 class="product-name">ネロリ油（玳玳花油）</h3>
                 <p class="product-latin">Citrus Aurantium Amara / 玳玳花油</p>
                 <p class="product-desc">
@@ -262,7 +262,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH003</span>
+                <span class="product-code">FNX003</span>
                 <h3 class="product-name">ジャスミンABS</h3>
                 <p class="product-latin">Jasmin Absolute / 茉莉花浄油</p>
                 <p class="product-desc">
@@ -272,7 +272,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH004</span>
+                <span class="product-code">FNX004</span>
                 <h3 class="product-name">キンモクセイABS</h3>
                 <p class="product-latin">Osmanthus Absolute / 桂花浄油</p>
                 <p class="product-desc">
@@ -282,7 +282,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH015</span>
+                <span class="product-code">FNX007</span>
                 <h3 class="product-name">蓝桉叶油（ユーカリ）</h3>
                 <p class="product-latin">Eucalyptus Globulus / 世界シェア40%+</p>
                 <p class="product-desc">
@@ -292,7 +292,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH018</span>
+                <span class="product-code">FNX009</span>
                 <h3 class="product-name">ティーツリー油</h3>
                 <p class="product-latin">Melaleuca Alternifolia / 世界トップ2</p>
                 <p class="product-desc">
@@ -302,7 +302,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH024</span>
+                <span class="product-code">FNX024</span>
                 <h3 class="product-name">桂皮油（肉桂）</h3>
                 <p class="product-latin">Cinnamomum Cassia / 世界トップ3</p>
                 <p class="product-desc">
@@ -312,7 +312,7 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH005-PH048</span>
+                <span class="product-code">FNX005-FNX063</span>
                 <h3 class="product-name">その他40製品以上</h3>
                 <p class="product-latin">Complete Product Database</p>
                 <p class="product-desc">
@@ -356,9 +356,9 @@ export const essentialOilsPageJA = () => `
                         📋 製品データベース総覧
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        PH001〜PH098 全48製品以上の詳細情報、CAS番号、製品仕様を収録
+                        FNX001〜FNX063 全63製品以上の詳細情報、CAS番号、製品仕様を収録
                     </p>
-                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                    <a href="/static/documents/天然精油仕様カタログ20251212.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
@@ -678,8 +678,8 @@ export const essentialOilsPageEN = () => `
                     <div class="stat-label">Tea Tree Oil<br>Global Market Share (Top 2)</div>
                 </div>
                 <div>
-                    <div class="stat-number">48+</div>
-                    <div class="stat-label">Product Portfolio<br>PH001-PH048</div>
+                    <div class="stat-number">63+</div>
+                    <div class="stat-label">Product Portfolio<br>FNX001-FNX063</div>
                 </div>
             </div>
         </div>
@@ -688,7 +688,7 @@ export const essentialOilsPageEN = () => `
 
         <div class="products-grid">
             <div class="product-card">
-                <span class="product-code">PH001</span>
+                <span class="product-code">FNX001</span>
                 <h3 class="product-name">White Orchid Oil</h3>
                 <p class="product-latin">Michelia Alba / INCI: MICHELIA ALBA FLOWER OIL</p>
                 <p class="product-desc">
@@ -698,7 +698,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH002</span>
+                <span class="product-code">FNX002</span>
                 <h3 class="product-name">Neroli Oil</h3>
                 <p class="product-latin">Citrus Aurantium Amara / Bitter Orange Flower</p>
                 <p class="product-desc">
@@ -708,7 +708,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH003</span>
+                <span class="product-code">FNX003</span>
                 <h3 class="product-name">Jasmine Absolute</h3>
                 <p class="product-latin">Jasminum Grandiflorum / Solvent Extraction</p>
                 <p class="product-desc">
@@ -718,7 +718,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH004</span>
+                <span class="product-code">FNX004</span>
                 <h3 class="product-name">Osmanthus Absolute</h3>
                 <p class="product-latin">Osmanthus Fragrans / Solvent Extraction</p>
                 <p class="product-desc">
@@ -728,7 +728,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH015</span>
+                <span class="product-code">FNX007</span>
                 <h3 class="product-name">Eucalyptus Globulus Oil</h3>
                 <p class="product-latin">Blue Gum / Global Market Share 40%+</p>
                 <p class="product-desc">
@@ -738,7 +738,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH018</span>
+                <span class="product-code">FNX009</span>
                 <h3 class="product-name">Tea Tree Oil</h3>
                 <p class="product-latin">Melaleuca Alternifolia / Global Top 2</p>
                 <p class="product-desc">
@@ -748,7 +748,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH024</span>
+                <span class="product-code">FNX024</span>
                 <h3 class="product-name">Cassia Oil (Chinese Cinnamon)</h3>
                 <p class="product-latin">Cinnamomum Cassia / Global Top 3</p>
                 <p class="product-desc">
@@ -758,7 +758,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH005-PH048</span>
+                <span class="product-code">FNX005-FNX063</span>
                 <h3 class="product-name">40+ Additional Products</h3>
                 <p class="product-latin">Complete Product Database</p>
                 <p class="product-desc">
@@ -802,9 +802,9 @@ export const essentialOilsPageEN = () => `
                         📋 Complete Product Database
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        Comprehensive catalog of 48+ products (PH001-PH098) with detailed specifications, CAS numbers, and technical data
+                        Comprehensive catalog of 63+ products (FNX001-FNX063) with detailed specifications, CAS numbers, and technical data
                     </p>
-                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                    <a href="/static/documents/天然精油仕様カタログ20251212.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
@@ -898,7 +898,7 @@ export const essentialOilsPageZH = () => `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>精油・天然香料 | Fvnix 合同會社</title>
-    <meta name="description" content="全球市佔率40%+的尤加利精油領導供應商。提供48種以上高品質天然精油產品。獲ISO 9001、REACH、KOSHER認證。">
+    <meta name="description" content="全球市佔率40%+的尤加利精油領導供應商。提供63種以上高品質天然精油產品。獲ISO 9001、REACH、KOSHER認證。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1124,8 +1124,8 @@ export const essentialOilsPageZH = () => `
                     <div class="stat-label">茶樹精油<br>全球市佔率（世界前二）</div>
                 </div>
                 <div>
-                    <div class="stat-number">48+</div>
-                    <div class="stat-label">產品系列<br>PH001-PH048</div>
+                    <div class="stat-number">63+</div>
+                    <div class="stat-label">產品系列<br>FNX001-FNX063</div>
                 </div>
             </div>
         </div>
@@ -1134,7 +1134,7 @@ export const essentialOilsPageZH = () => `
 
         <div class="products-grid">
             <div class="product-card">
-                <span class="product-code">PH001</span>
+                <span class="product-code">FNX001</span>
                 <h3 class="product-name">白蘭花油</h3>
                 <p class="product-latin">Michelia Alba / 白蘭花油</p>
                 <p class="product-desc">
@@ -1144,7 +1144,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH002</span>
+                <span class="product-code">FNX002</span>
                 <h3 class="product-name">橙花精油（玳玳花油）</h3>
                 <p class="product-latin">Citrus Aurantium Amara / 玳玳花油</p>
                 <p class="product-desc">
@@ -1154,7 +1154,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH003</span>
+                <span class="product-code">FNX003</span>
                 <h3 class="product-name">茉莉原精</h3>
                 <p class="product-latin">Jasmin Absolute / 茉莉花淨油</p>
                 <p class="product-desc">
@@ -1164,7 +1164,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH004</span>
+                <span class="product-code">FNX004</span>
                 <h3 class="product-name">桂花原精</h3>
                 <p class="product-latin">Osmanthus Absolute / 桂花淨油</p>
                 <p class="product-desc">
@@ -1174,7 +1174,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH015</span>
+                <span class="product-code">FNX007</span>
                 <h3 class="product-name">藍桉葉油（尤加利）</h3>
                 <p class="product-latin">Eucalyptus Globulus / 全球市佔率40%+</p>
                 <p class="product-desc">
@@ -1184,7 +1184,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH018</span>
+                <span class="product-code">FNX009</span>
                 <h3 class="product-name">茶樹精油</h3>
                 <p class="product-latin">Melaleuca Alternifolia / 全球前二</p>
                 <p class="product-desc">
@@ -1194,7 +1194,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH024</span>
+                <span class="product-code">FNX024</span>
                 <h3 class="product-name">桂皮油（肉桂）</h3>
                 <p class="product-latin">Cinnamomum Cassia / 全球前三</p>
                 <p class="product-desc">
@@ -1204,7 +1204,7 @@ export const essentialOilsPageZH = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">PH005-PH048</span>
+                <span class="product-code">FNX005-FNX063</span>
                 <h3 class="product-name">其他40種以上產品</h3>
                 <p class="product-latin">Complete Product Database</p>
                 <p class="product-desc">

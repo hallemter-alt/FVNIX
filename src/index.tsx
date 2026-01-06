@@ -1177,7 +1177,7 @@ app.get('/', (c) => {
                         <li>桂皮油・桂油（世界トップ3）</li>
                         <li>ティーツリー油（世界トップ2）</li>
                         <li>ジャスミンABS、キンモクセイABS</li>
-                        <li>ネロリ油、ラベンダー油、広藿香油など48製品以上</li>
+                        <li>ネロリ油、ラベンダー油、広藿香油など63製品以上</li>
                     </ul>
                     <p style="margin-top: 1rem;">
                         <strong>用途：</strong>香料メーカー向け原料、化粧品・パーソナルケア製品、
@@ -1910,7 +1910,7 @@ app.get('/zh-tw', (c) => {
             <div class="card">
                 <div class="card-content">
                     <h3>🌿 精油・天然香料</h3>
-                    <p>全球尤加利油市場份額40%+。48種以上純天然精油產品。ISO 9001、REACH、KOSHER認證。</p>
+                    <p>全球尤加利油市場份額40%+。63種以上純天然精油產品。ISO 9001、REACH、KOSHER認證。</p>
                     <a href="/zh-tw/products/essential-oils" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">了解更多 →</a>
                 </div>
             </div>
@@ -2348,7 +2348,7 @@ app.get('/en', (c) => {
             <div class="card">
                 <div class="card-content">
                     <h3>🌿 Essential Oils & Natural Aromatics</h3>
-                    <p>40%+ global Eucalyptus oil market share. 48+ pure natural essential oil products. ISO 9001, REACH, KOSHER certified.</p>
+                    <p>40%+ global Eucalyptus oil market share. 63+ pure natural essential oil products. ISO 9001, REACH, KOSHER certified.</p>
                     <a href="/en/products/essential-oils" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">Learn More →</a>
                 </div>
             </div>
