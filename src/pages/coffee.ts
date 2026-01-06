@@ -219,7 +219,7 @@ export const coffeePageJA = () => `
             <div class="lang-switcher">
                 <a href="/products/coffee" class="active">日本語</a>
                 <a href="/en/products/coffee">English</a>
-                <a href="/zh/products/coffee">繁體中文</a>
+                <a href="/zh-tw/products/coffee">繁體中文</a>
             </div>
         </div>
     </header>
@@ -626,7 +626,7 @@ export const coffeePageEN = () => `
             <div class="lang-switcher">
                 <a href="/products/coffee">日本語</a>
                 <a href="/en/products/coffee" class="active">English</a>
-                <a href="/zh/products/coffee">繁體中文</a>
+                <a href="/zh-tw/products/coffee">繁體中文</a>
             </div>
         </div>
     </header>

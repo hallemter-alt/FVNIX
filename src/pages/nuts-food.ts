@@ -205,7 +205,7 @@ export const nutsFoodPageJA = () => `
             <div class="lang-switcher">
                 <a href="/products/nuts-food" class="active">日本語</a>
                 <a href="/en/products/nuts-food">English</a>
-                <a href="/zh/products/nuts-food">繁體中文</a>
+                <a href="/zh-tw/products/nuts-food">繁體中文</a>
             </div>
         </div>
     </header>
@@ -644,7 +644,7 @@ export const nutsFoodPageEN = () => `
             <div class="lang-switcher">
                 <a href="/products/nuts-food">日本語</a>
                 <a href="/en/products/nuts-food" class="active">English</a>
-                <a href="/zh/products/nuts-food">繁體中文</a>
+                <a href="/zh-tw/products/nuts-food">繁體中文</a>
             </div>
         </div>
     </header>

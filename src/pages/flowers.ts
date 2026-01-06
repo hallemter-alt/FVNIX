@@ -240,7 +240,7 @@ export const flowersPageJA = () => `
             <div class="lang-switcher">
                 <a href="/products/flowers" class="active">日本語</a>
                 <a href="/en/products/flowers">English</a>
-                <a href="/zh/products/flowers">繁體中文</a>
+                <a href="/zh-tw/products/flowers">繁體中文</a>
             </div>
         </div>
     </header>
@@ -733,7 +733,7 @@ export const flowersPageEN = () => `
             <div class="lang-switcher">
                 <a href="/products/flowers">日本語</a>
                 <a href="/en/products/flowers" class="active">English</a>
-                <a href="/zh/products/flowers">繁體中文</a>
+                <a href="/zh-tw/products/flowers">繁體中文</a>
             </div>
         </div>
     </header>

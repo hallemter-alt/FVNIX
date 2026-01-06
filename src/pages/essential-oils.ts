@@ -203,7 +203,7 @@ export const essentialOilsPageJA = () => `
             <div class="lang-switcher">
                 <a href="/products/essential-oils" class="active">日本語</a>
                 <a href="/en/products/essential-oils">English</a>
-                <a href="/zh/products/essential-oils">繁體中文</a>
+                <a href="/zh-tw/products/essential-oils">繁體中文</a>
             </div>
         </div>
     </header>
@@ -646,7 +646,7 @@ export const essentialOilsPageEN = () => `
             <div class="lang-switcher">
                 <a href="/products/essential-oils">日本語</a>
                 <a href="/en/products/essential-oils" class="active">English</a>
-                <a href="/zh/products/essential-oils">繁體中文</a>
+                <a href="/zh-tw/products/essential-oils">繁體中文</a>
             </div>
         </div>
     </header>
