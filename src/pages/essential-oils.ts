@@ -5,7 +5,7 @@ export const essentialOilsPageJA = () => `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>アロマ・天然香料 | 合同会社フェニックス</title>
-    <meta name="description" content="世界シェア40%+のユーカリ油をはじめ、63製品以上の高品質天然精油を供給。ISO 9001、REACH、KOSHER認証取得済み。">
+    <meta name="description" content="世界シェア40%+のユーカリ油をはじめ、95製品以上の高品質天然精油を供給。ISO 9001、REACH、KOSHER認証取得済み。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -233,7 +233,7 @@ export const essentialOilsPageJA = () => `
                 </div>
                 <div>
                     <div class="stat-number">63+</div>
-                    <div class="stat-label">製品ラインナップ<br>FNX001-FNX063</div>
+                    <div class="stat-label">製品ラインナップ<br>FNX001-FNX095</div>
                 </div>
             </div>
         </div>
@@ -356,7 +356,7 @@ export const essentialOilsPageJA = () => `
                         📋 製品データベース総覧
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        FNX001〜FNX063 全63製品以上の詳細情報、CAS番号、製品仕様を収録
+                        FNX001〜FNX095 全95製品以上の詳細情報、CAS番号、製品仕様を収録
                     </p>
                     <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
                        target="_blank"
@@ -679,7 +679,7 @@ export const essentialOilsPageEN = () => `
                 </div>
                 <div>
                     <div class="stat-number">63+</div>
-                    <div class="stat-label">Product Portfolio<br>FNX001-FNX063</div>
+                    <div class="stat-label">Product Portfolio<br>FNX001-FNX095</div>
                 </div>
             </div>
         </div>
@@ -802,7 +802,7 @@ export const essentialOilsPageEN = () => `
                         📋 Complete Product Database
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        Comprehensive catalog of 63+ products (FNX001-FNX063) with detailed specifications, CAS numbers, and technical data
+                        Comprehensive catalog of 95+ products (FNX001-FNX095) with detailed specifications, CAS numbers, and technical data
                     </p>
                     <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
                        target="_blank"
@@ -898,7 +898,7 @@ export const essentialOilsPageZH = () => `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>精油・天然香料 | Fvnix 合同會社</title>
-    <meta name="description" content="全球市佔率40%+的尤加利精油領導供應商。提供63種以上高品質天然精油產品。獲ISO 9001、REACH、KOSHER認證。">
+    <meta name="description" content="全球市佔率40%+的尤加利精油領導供應商。提供95種以上高品質天然精油產品。獲ISO 9001、REACH、KOSHER認證。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1125,7 +1125,7 @@ export const essentialOilsPageZH = () => `
                 </div>
                 <div>
                     <div class="stat-number">63+</div>
-                    <div class="stat-label">產品系列<br>FNX001-FNX063</div>
+                    <div class="stat-label">產品系列<br>FNX001-FNX095</div>
                 </div>
             </div>
         </div>
