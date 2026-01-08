@@ -1,8 +1,0 @@
-/static/*
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
-
-/static/documents/*
-  Access-Control-Allow-Origin: *
-  Content-Type: application/pdf
-  Cache-Control: public, max-age=31536000
