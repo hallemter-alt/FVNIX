@@ -356,9 +356,9 @@ export const essentialOilsPageJA = () => `
                         📋 製品データベース総覧
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        FNX001〜FNX095 全95製品以上の詳細情報、CAS番号、製品仕様を収録
+                        PH001〜PH098 全98製品以上の詳細情報、CAS番号、製品仕様を収録
                     </p>
-                    <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
+                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
@@ -802,9 +802,9 @@ export const essentialOilsPageEN = () => `
                         📋 Complete Product Database
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        Comprehensive catalog of 95+ products (FNX001-FNX095) with detailed specifications, CAS numbers, and technical data
+                        Comprehensive catalog of 98+ products (PH001-PH098) with detailed specifications, CAS numbers, and technical data
                     </p>
-                    <a href="/static/documents/Essential-Oils-Catalog-2025.pdf" 
+                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
                        target="_blank"
                        download
                        style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
