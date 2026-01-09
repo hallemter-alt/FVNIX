@@ -307,3 +307,29 @@ https://3001-*.sandbox.novita.ai
 
 **最終更新**: 2026年1月9日  
 **ステータス**: ✅ 本番稼働中
+
+---
+
+## 🔗 Wix × Cloudflare Pages 連携
+
+WixメインサイトとCloudflare Pages製品カタログを連携する方法：
+
+### 📚 連携ガイド
+
+1. **[WIX_INTEGRATION_QUICKSTART.md](WIX_INTEGRATION_QUICKSTART.md)** - 🚀 クイックスタート（5分で完了）
+2. **[WIX_INTEGRATION_GUIDE.md](WIX_INTEGRATION_GUIDE.md)** - 📖 詳細ガイド（全機能）
+
+### ⚡ 最も簡単な方法
+
+Wixサイトにボタンを追加して、`https://app.fvnix.com/` にリンクするだけ！
+
+```
+Wixサイト (www.fvnix.com)
+    ↓
+[製品カタログを見る] ボタン
+    ↓
+製品カタログ (app.fvnix.com)
+```
+
+詳細は **WIX_INTEGRATION_QUICKSTART.md** を参照してください。
+
