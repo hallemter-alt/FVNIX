@@ -11,6 +11,12 @@ export const nutsFoodPageJA = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --primary-color: #c17233;
             --secondary-color: #d4884f;
@@ -613,6 +619,12 @@ export const nutsFoodPageEN = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --primary-color: #c17233;
             --secondary-color: #d4884f;
@@ -1169,6 +1181,12 @@ export const nutsFoodPageZH = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --primary-color: #c17233;
             --secondary-color: #d4884f;

@@ -11,6 +11,12 @@ export const coffeePageJA = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --primary-green: #2d5f3f;
             --secondary-green: #4a7c59;
@@ -450,6 +456,12 @@ export const coffeePageEN = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --primary-green: #2d5f3f;
             --secondary-green: #4a7c59;
@@ -857,6 +869,12 @@ export const coffeePageZH = () => `
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         :root {
             --coffee-brown: #6F4E37;
             --coffee-light: #A67B5B;

@@ -38,6 +38,11 @@ app.get('/', (c) => {
             --border-color: #e0e0e0;
         }
 
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+
         body {
             font-family: 'Noto Serif JP', 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', serif;
             font-weight: 400;
@@ -345,8 +350,9 @@ app.get('/', (c) => {
             position: absolute;
             top: -50%;
             right: -20%;
-            width: 600px;
-            height: 600px;
+            width: min(600px, 100vw);
+            height: min(600px, 100vw);
+            max-width: 100%;
             background: radial-gradient(circle, rgba(45, 95, 63, 0.05) 0%, transparent 70%);
             border-radius: 50%;
         }
@@ -453,6 +459,8 @@ app.get('/', (c) => {
         .container {
             max-width: 1200px;
             margin: 0 auto;
+            padding: 0 1rem;
+            width: 100%;
         }
 
         .section-title {
@@ -1397,12 +1405,12 @@ app.get('/', (c) => {
             </div>
 
             <!-- Production Capacity Table -->
-            <div style="margin-top: 4rem;">
+            <div style="margin-top: 4rem; padding: 0 1rem;">
                 <h3 style="text-align: center; color: var(--primary-green); font-size: 1.5rem; margin-bottom: 2rem; font-weight: 500;">
                     各工場の年間生産能力
                 </h3>
-                <div style="overflow-x: auto;">
-                    <table style="width: 100%; max-width: 1000px; margin: 0 auto; border-collapse: collapse; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden;">
+                <div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+                    <table style="width: 100%; min-width: 800px; max-width: 1000px; margin: 0 auto; border-collapse: collapse; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden;">
                         <thead>
                             <tr style="background: var(--primary-green); color: white;">
                                 <th style="padding: 1rem; text-align: left; font-weight: 500; border-right: 1px solid rgba(255,255,255,0.2);">製品シリーズ</th>
