@@ -1727,6 +1727,9 @@ import { essentialOilsPageJA, essentialOilsPageEN, essentialOilsPageZH } from '.
 import { nutsFoodPageJA, nutsFoodPageEN, nutsFoodPageZH } from './pages/nuts-food'
 import { coffeePageJA, coffeePageEN, coffeePageZH } from './pages/coffee'
 import { flowersPageJA, flowersPageEN, flowersPageZH } from './pages/flowers'
+import { productsListPageJA, productsListPageEN, productsListPageZH } from './pages/products-list'
+import { productDetailPageJA, productDetailPageEN, productDetailPageZH } from './pages/product-detail'
+import { downloadsPageJA, downloadsPageEN, downloadsPageZH } from './pages/downloads-center'
 
 // Japanese product pages
 app.get('/products/essential-oils', (c) => c.html(essentialOilsPageJA()))
@@ -1734,17 +1737,108 @@ app.get('/products/nuts-food', (c) => c.html(nutsFoodPageJA()))
 app.get('/products/coffee', (c) => c.html(coffeePageJA()))
 app.get('/products/flowers', (c) => c.html(flowersPageJA()))
 
+// New Product List & Detail Pages (Japanese)
+app.get('/products', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    series: c.req.query('series'),
+    tags: c.req.query('tags'),
+    search: c.req.query('search')
+  }
+  return c.html(productsListPageJA(params))
+})
+
+app.get('/products/:id', (c) => {
+  const productId = c.req.param('id')
+  // 既存の製品ページとの衝突を避ける
+  if (['essential-oils', 'nuts-food', 'coffee', 'flowers'].includes(productId)) {
+    return c.notFound()
+  }
+  return c.html(productDetailPageJA(productId))
+})
+
+// Download Center (Japanese)
+app.get('/downloads', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    type: c.req.query('type'),
+    language: c.req.query('language'),
+    search: c.req.query('search')
+  }
+  return c.html(downloadsPageJA(params))
+})
+
 // English product pages
 app.get('/en/products/essential-oils', (c) => c.html(essentialOilsPageEN()))
 app.get('/en/products/nuts-food', (c) => c.html(nutsFoodPageEN()))
 app.get('/en/products/coffee', (c) => c.html(coffeePageEN()))
 app.get('/en/products/flowers', (c) => c.html(flowersPageEN()))
 
+// New Product List & Detail Pages (English)
+app.get('/en/products', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    series: c.req.query('series'),
+    tags: c.req.query('tags'),
+    search: c.req.query('search')
+  }
+  return c.html(productsListPageEN(params))
+})
+
+app.get('/en/products/:id', (c) => {
+  const productId = c.req.param('id')
+  if (['essential-oils', 'nuts-food', 'coffee', 'flowers'].includes(productId)) {
+    return c.notFound()
+  }
+  return c.html(productDetailPageEN(productId))
+})
+
+// Download Center (English)
+app.get('/en/downloads', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    type: c.req.query('type'),
+    language: c.req.query('language'),
+    search: c.req.query('search')
+  }
+  return c.html(downloadsPageEN(params))
+})
+
 // Traditional Chinese product pages
 app.get('/zh-tw/products/essential-oils', (c) => c.html(essentialOilsPageZH()))
 app.get('/zh-tw/products/nuts-food', (c) => c.html(nutsFoodPageZH()))
 app.get('/zh-tw/products/coffee', (c) => c.html(coffeePageZH()))
 app.get('/zh-tw/products/flowers', (c) => c.html(flowersPageZH()))
+
+// New Product List & Detail Pages (Traditional Chinese)
+app.get('/zh-tw/products', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    series: c.req.query('series'),
+    tags: c.req.query('tags'),
+    search: c.req.query('search')
+  }
+  return c.html(productsListPageZH(params))
+})
+
+app.get('/zh-tw/products/:id', (c) => {
+  const productId = c.req.param('id')
+  if (['essential-oils', 'nuts-food', 'coffee', 'flowers'].includes(productId)) {
+    return c.notFound()
+  }
+  return c.html(productDetailPageZH(productId))
+})
+
+// Download Center (Traditional Chinese)
+app.get('/zh-tw/downloads', (c) => {
+  const params = {
+    category: c.req.query('category'),
+    type: c.req.query('type'),
+    language: c.req.query('language'),
+    search: c.req.query('search')
+  }
+  return c.html(downloadsPageZH(params))
+})
 
 // Traditional Chinese (Taiwan) home page
 app.get('/zh-tw', (c) => {

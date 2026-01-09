@@ -1,0 +1,338 @@
+[
+  {
+    "id": "walnut-oil-brochure",
+    "title": {
+      "ja": "雲南高原クルミオイル 製品紹介",
+      "en": "Yunnan Highland Walnut Oil Product Introduction",
+      "zh": "雲南高原核桃油產品介紹"
+    },
+    "category": "nuts-food",
+    "type": "brochure",
+    "language": "multilingual",
+    "size": "18MB",
+    "format": "PDF",
+    "url": "/static/documents/product-brochures/Yunnan-Walnut-Oil-Introduction.pdf",
+    "description": {
+      "ja": "標高2,500mの恵み、低温冷圧搾、栄養成分、品質保証、企業概要",
+      "en": "2,500m highland blessing, cold-pressed, nutritional components, quality assurance, company overview",
+      "zh": "海拔2,500m的恩惠、冷壓榨、營養成分、品質保證、企業概要"
+    },
+    "tags": ["walnut-oil", "brochure", "product-info"],
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "walnut-oil-nutritional-analysis",
+    "title": {
+      "ja": "クルミオイル 栄養分析報告書",
+      "en": "Walnut Oil Nutritional Analysis Report",
+      "zh": "核桃油營養分析報告"
+    },
+    "category": "nuts-food",
+    "type": "technical",
+    "language": "en",
+    "size": "2.1MB",
+    "format": "PDF",
+    "url": "/static/documents/technical/Walnut-Oil-Nutritional-Analysis.pdf",
+    "description": {
+      "ja": "オメガ3脂肪酸、ビタミンE、ポリフェノール含有量の詳細分析",
+      "en": "Detailed analysis of Omega-3 fatty acids, Vitamin E, and polyphenol content",
+      "zh": "Omega-3脂肪酸、維生素E、多酚含量的詳細分析"
+    },
+    "tags": ["walnut-oil", "nutritional", "analysis"],
+    "updatedAt": "2025-12-15"
+  },
+  {
+    "id": "nuts-factory-brochure",
+    "title": {
+      "ja": "雲南永仁ドライフルーツ工場 カタログ",
+      "en": "Yunnan Yongren Dried Fruit Factory Brochure",
+      "zh": "雲南永仁乾果工廠目錄"
+    },
+    "category": "nuts-food",
+    "type": "brochure",
+    "language": "multilingual",
+    "size": "2.4MB",
+    "format": "PDF",
+    "url": "/static/documents/product-brochures/Yunnan-Nuts-Factory-Brochure.pdf",
+    "description": {
+      "ja": "工場概要、生産能力、品質管理体制、製品ラインナップ",
+      "en": "Factory overview, production capacity, quality control system, product lineup",
+      "zh": "工廠概要、生產能力、品質管理體制、產品陣容"
+    },
+    "tags": ["nuts", "factory", "brochure"],
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "coffee-brochure",
+    "title": {
+      "ja": "雲南高原プレミアムコーヒー 総合カタログ",
+      "en": "Yunnan Highland Premium Coffee Comprehensive Catalog",
+      "zh": "雲南高原優質咖啡綜合目錄"
+    },
+    "category": "coffee",
+    "type": "brochure",
+    "language": "multilingual",
+    "size": "2.5MB",
+    "format": "PDF",
+    "url": "/static/documents/product-brochures/Yunnan-Premium-Coffee-Brochure.pdf",
+    "description": {
+      "ja": "世界級コーヒーベルト産地、栽培方法、収穫・加工プロセス、品質管理",
+      "en": "World-class coffee belt origin, cultivation methods, harvesting and processing, quality control",
+      "zh": "世界級咖啡帶產地、種植方法、收穫加工過程、品質管理"
+    },
+    "tags": ["coffee", "brochure", "specialty"],
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "eucalyptus-msds",
+    "title": {
+      "ja": "MSDS - レモンユーカリ油",
+      "en": "MSDS - Eucalyptus Citriodora Oil",
+      "zh": "MSDS - 檸檬桉油"
+    },
+    "category": "essential-oils",
+    "type": "msds",
+    "language": "multilingual",
+    "size": "187KB",
+    "format": "PDF",
+    "url": "/static/documents/msds/MSDS-Eucalyptus Citriodora Oil「レモンユーカリ油」.pdf",
+    "description": {
+      "ja": "安全データシート（MSDS）- ユーカリ油の取扱い、保管、安全情報",
+      "en": "Material Safety Data Sheet (MSDS) - Eucalyptus oil handling, storage, safety information",
+      "zh": "物質安全資料表（MSDS）- 桉油處理、儲存、安全資訊"
+    },
+    "tags": ["msds", "eucalyptus", "safety"],
+    "updatedAt": "2025-11-20"
+  },
+  {
+    "id": "lavender-msds",
+    "title": {
+      "ja": "MSDS - ラベンダーオイル",
+      "en": "MSDS - Lavender Oil",
+      "zh": "MSDS - 薰衣草油"
+    },
+    "category": "essential-oils",
+    "type": "msds",
+    "language": "multilingual",
+    "size": "195KB",
+    "format": "PDF",
+    "url": "/static/documents/msds/MSDS-Lavender Oil「ラベンダオイル」.pdf",
+    "description": {
+      "ja": "安全データシート（MSDS）- ラベンダーオイルの取扱い、保管、安全情報",
+      "en": "Material Safety Data Sheet (MSDS) - Lavender oil handling, storage, safety information",
+      "zh": "物質安全資料表（MSDS）- 薰衣草油處理、儲存、安全資訊"
+    },
+    "tags": ["msds", "lavender", "safety"],
+    "updatedAt": "2025-11-20"
+  },
+  {
+    "id": "iso9001-cert",
+    "title": {
+      "ja": "ISO9001認証書",
+      "en": "ISO9001 Certification",
+      "zh": "ISO9001認證"
+    },
+    "category": "certifications",
+    "type": "certification",
+    "language": "multilingual",
+    "size": "1.2MB",
+    "format": "PDF",
+    "url": "/static/documents/certifications/ISO9001認証.pdf",
+    "description": {
+      "ja": "品質マネジメントシステム国際規格認証",
+      "en": "Quality Management System International Standard Certification",
+      "zh": "品質管理系統國際標準認證"
+    },
+    "tags": ["iso9001", "certification", "quality"],
+    "updatedAt": "2025-06-15"
+  },
+  {
+    "id": "haccp-cert",
+    "title": {
+      "ja": "HACCP認証（英文版）",
+      "en": "HACCP Certification (English Version)",
+      "zh": "HACCP認證（英文版）"
+    },
+    "category": "certifications",
+    "type": "certification",
+    "language": "en",
+    "size": "1.5MB",
+    "format": "PDF",
+    "url": "/static/documents/certifications/HACCP認証（英文版）.pdf",
+    "description": {
+      "ja": "食品安全衛生管理システム認証",
+      "en": "Food Safety and Hygiene Management System Certification",
+      "zh": "食品安全衛生管理系統認證"
+    },
+    "tags": ["haccp", "certification", "food-safety"],
+    "updatedAt": "2025-08-10"
+  },
+  {
+    "id": "kosher-cert",
+    "title": {
+      "ja": "Kosher認証",
+      "en": "Kosher Certification",
+      "zh": "Kosher認證"
+    },
+    "category": "certifications",
+    "type": "certification",
+    "language": "en",
+    "size": "890KB",
+    "format": "PDF",
+    "url": "/static/documents/certifications/Kosher認証.pdf",
+    "description": {
+      "ja": "ユダヤ教食品規定適合認証",
+      "en": "Jewish Dietary Law Compliance Certification",
+      "zh": "猶太教飲食法規合規認證"
+    },
+    "tags": ["kosher", "certification", "dietary"],
+    "updatedAt": "2025-07-20"
+  },
+  {
+    "id": "gap-certification",
+    "title": {
+      "ja": "GAP認証（適正農業規範）",
+      "en": "GAP Certification (Good Agricultural Practices)",
+      "zh": "GAP認證（良好農業規範）"
+    },
+    "category": "certifications",
+    "type": "certification",
+    "language": "multilingual",
+    "size": "1.8MB",
+    "format": "PDF",
+    "url": "/static/documents/certifications/GAP-Certification.pdf",
+    "description": {
+      "ja": "適正農業規範認証 - 持続可能な農業生産",
+      "en": "Good Agricultural Practices Certification - Sustainable agricultural production",
+      "zh": "良好農業規範認證 - 可持續農業生產"
+    },
+    "tags": ["gap", "certification", "agriculture"],
+    "updatedAt": "2025-09-05"
+  },
+  {
+    "id": "flowers-catalog",
+    "title": {
+      "ja": "雲南高原プレミアム花卉 総合カタログ",
+      "en": "Yunnan Highland Premium Flowers Comprehensive Catalog",
+      "zh": "雲南高原優質花卉綜合目錄"
+    },
+    "category": "flowers",
+    "type": "brochure",
+    "language": "multilingual",
+    "size": "3.2MB",
+    "format": "PDF",
+    "url": "/static/documents/product-brochures/Yunnan-Flowers-Catalog.pdf",
+    "description": {
+      "ja": "切り花品種、栽培方法、品質管理、物流体制",
+      "en": "Cut flower varieties, cultivation methods, quality control, logistics system",
+      "zh": "切花品種、種植方法、品質管理、物流體制"
+    },
+    "tags": ["flowers", "catalog", "premium"],
+    "updatedAt": "2025-10-18"
+  },
+  {
+    "id": "eucalyptus-coa",
+    "title": {
+      "ja": "ユーカリ油 分析証明書（COA）",
+      "en": "Eucalyptus Oil Certificate of Analysis (COA)",
+      "zh": "桉油分析證明書（COA）"
+    },
+    "category": "essential-oils",
+    "type": "technical",
+    "language": "en",
+    "size": "450KB",
+    "format": "PDF",
+    "url": "/static/documents/technical/Eucalyptus-Oil-COA.pdf",
+    "description": {
+      "ja": "成分分析、品質規格、試験結果",
+      "en": "Component analysis, quality specifications, test results",
+      "zh": "成分分析、品質規格、測試結果"
+    },
+    "tags": ["coa", "eucalyptus", "analysis"],
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "id": "lavender-coa",
+    "title": {
+      "ja": "ラベンダーオイル 分析証明書（COA）",
+      "en": "Lavender Oil Certificate of Analysis (COA)",
+      "zh": "薰衣草油分析證明書（COA）"
+    },
+    "category": "essential-oils",
+    "type": "technical",
+    "language": "en",
+    "size": "420KB",
+    "format": "PDF",
+    "url": "/static/documents/technical/Lavender-Oil-COA.pdf",
+    "description": {
+      "ja": "成分分析、品質規格、試験結果",
+      "en": "Component analysis, quality specifications, test results",
+      "zh": "成分分析、品質規格、測試結果"
+    },
+    "tags": ["coa", "lavender", "analysis"],
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "id": "macadamia-nutritional",
+    "title": {
+      "ja": "マカダミアナッツ 栄養成分表",
+      "en": "Macadamia Nuts Nutritional Information",
+      "zh": "夏威夷果營養成分表"
+    },
+    "category": "nuts-food",
+    "type": "technical",
+    "language": "multilingual",
+    "size": "680KB",
+    "format": "PDF",
+    "url": "/static/documents/technical/Macadamia-Nutritional-Info.pdf",
+    "description": {
+      "ja": "栄養成分、カロリー、ビタミン・ミネラル含有量",
+      "en": "Nutritional components, calories, vitamin and mineral content",
+      "zh": "營養成分、熱量、維生素和礦物質含量"
+    },
+    "tags": ["macadamia", "nutritional", "nuts"],
+    "updatedAt": "2025-11-10"
+  },
+  {
+    "id": "coffee-roasting-guide",
+    "title": {
+      "ja": "コーヒー焙煎ガイド",
+      "en": "Coffee Roasting Guide",
+      "zh": "咖啡烘焙指南"
+    },
+    "category": "coffee",
+    "type": "technical",
+    "language": "multilingual",
+    "size": "1.9MB",
+    "format": "PDF",
+    "url": "/static/documents/technical/Coffee-Roasting-Guide.pdf",
+    "description": {
+      "ja": "焙煎プロファイル、温度管理、フレーバー開発",
+      "en": "Roasting profiles, temperature control, flavor development",
+      "zh": "烘焙曲線、溫度控制、風味開發"
+    },
+    "tags": ["coffee", "roasting", "guide"],
+    "updatedAt": "2025-10-25"
+  },
+  {
+    "id": "coffee-certification",
+    "title": {
+      "ja": "コーヒー品質認証パッケージ",
+      "en": "Coffee Quality Certification Package",
+      "zh": "咖啡品質認證套裝"
+    },
+    "category": "coffee",
+    "type": "certification",
+    "language": "multilingual",
+    "size": "2.8MB",
+    "format": "PDF",
+    "url": "/static/documents/certifications/Coffee-Certification-Package.pdf",
+    "description": {
+      "ja": "有機認証、フェアトレード認証、レインフォレスト・アライアンス認証",
+      "en": "Organic certification, Fair Trade certification, Rainforest Alliance certification",
+      "zh": "有機認證、公平貿易認證、雨林聯盟認證"
+    },
+    "tags": ["coffee", "certification", "organic"],
+    "updatedAt": "2025-09-12"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "walnut-oil-premium",
+    "model": "FNX-WO-001",
+    "name": {
+      "ja": "雲南高原プレミアムクルミオイル",
+      "en": "Yunnan Highland Premium Walnut Oil",
+      "zh": "雲南高原優質核桃油"
+    },
+    "category": "nuts-food",
+    "series": "walnut-oil",
+    "tags": ["walnut", "cold-pressed", "organic", "omega3"],
+    "shortDesc": {
+      "ja": "標高2,500m高原産。低温冷圧搾・無添加・オメガ3豊富",
+      "en": "From 2,500m highland. Cold-pressed, additive-free, rich in Omega-3",
+      "zh": "海拔2,500m高原產。冷壓榨、無添加、富含Omega-3"
+    },
+    "fullDesc": {
+      "ja": "雲南省永仁県の標高2,500mの高原で栽培されたクルミを使用。低温冷圧搾により栄養素を最大限に保持。オメガ3脂肪酸、ビタミンE、ポリフェノールが豊富で、健康と美容をサポートします。",
+      "en": "Made from walnuts grown at 2,500m altitude in Yongren County, Yunnan Province. Cold-pressed to preserve maximum nutrients. Rich in Omega-3 fatty acids, Vitamin E, and polyphenols for health and beauty support.",
+      "zh": "使用雲南省永仁縣海拔2,500m高原種植的核桃。冷壓榨保留最大營養素。富含Omega-3脂肪酸、維生素E、多酚，支持健康與美容。"
+    },
+    "images": [
+      "/static/images/products/walnut-oil-01.jpg",
+      "/static/images/products/walnut-oil-02.jpg"
+    ],
+    "specs": {
+      "altitude": "2,500m",
+      "extraction": "Cold-pressed",
+      "certification": ["Organic", "ISO9001", "HACCP"],
+      "origin": "Yunnan, China"
+    },
+    "downloads": ["walnut-oil-brochure", "walnut-oil-nutritional-analysis", "iso9001-cert", "haccp-cert"],
+    "featured": true,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "eucalyptus-oil",
+    "model": "FNX-EO-001",
+    "name": {
+      "ja": "ユーカリ油",
+      "en": "Eucalyptus Citriodora Oil",
+      "zh": "檸檬桉油"
+    },
+    "category": "essential-oils",
+    "series": "eucalyptus",
+    "tags": ["eucalyptus", "essential-oil", "aromatherapy", "natural"],
+    "shortDesc": {
+      "ja": "レモンユーカリ油。爽やかな香りと殺菌効果",
+      "en": "Lemon Eucalyptus Oil. Fresh aroma with antibacterial properties",
+      "zh": "檸檬桉油。清新香氣與殺菌效果"
+    },
+    "fullDesc": {
+      "ja": "雲南省で栽培されたレモンユーカリから抽出した天然精油。爽やかなレモン様の香りが特徴で、アロマセラピーや空間芳香に最適です。抗菌・抗ウイルス作用も期待できます。",
+      "en": "Natural essential oil extracted from lemon eucalyptus grown in Yunnan Province. Characterized by a refreshing lemon-like aroma, ideal for aromatherapy and space fragrance. Antibacterial and antiviral properties expected.",
+      "zh": "從雲南省種植的檸檬桉提取的天然精油。具有清新的檸檬香氣，適合芳香療法和空間香氛。具有抗菌和抗病毒作用。"
+    },
+    "images": [
+      "/static/images/products/eucalyptus-oil-01.jpg"
+    ],
+    "specs": {
+      "botanicalName": "Eucalyptus citriodora",
+      "extractionPart": "Leaf",
+      "extractionMethod": "Steam distillation",
+      "origin": "Yunnan, China"
+    },
+    "downloads": ["eucalyptus-msds", "eucalyptus-coa", "iso9001-cert"],
+    "featured": true,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "coffee-specialty-arabica",
+    "model": "FNX-CF-001",
+    "name": {
+      "ja": "雲南高原スペシャルティコーヒー（アラビカ種）",
+      "en": "Yunnan Highland Specialty Coffee (Arabica)",
+      "zh": "雲南高原特級咖啡（阿拉比卡種）"
+    },
+    "category": "coffee",
+    "series": "specialty-coffee",
+    "tags": ["coffee", "arabica", "specialty", "highland"],
+    "shortDesc": {
+      "ja": "標高1,200-2,000m栽培。100%アラビカ種",
+      "en": "1,200-2,000m altitude. 100% Arabica",
+      "zh": "海拔1,200-2,000m種植。100%阿拉比卡種"
+    },
+    "fullDesc": {
+      "ja": "世界三大コーヒー産地の一つ、雲南高原で栽培された100%アラビカ種。標高1,200-2,000mの高地栽培により、フルーティで芳醇な風味を実現。完全トレーサビリティで品質を保証します。",
+      "en": "100% Arabica grown in Yunnan Highland, one of the world's three major coffee origins. High-altitude cultivation at 1,200-2,000m creates fruity and aromatic flavors. Quality guaranteed with complete traceability.",
+      "zh": "在世界三大咖啡產地之一的雲南高原種植的100%阿拉比卡種。海拔1,200-2,000m的高地種植實現了果香濃郁的風味。完整可追溯性保證品質。"
+    },
+    "images": [
+      "/static/images/products/coffee-specialty-01.jpg"
+    ],
+    "specs": {
+      "variety": "Arabica",
+      "altitude": "1,200-2,000m",
+      "processing": "Washed / Natural",
+      "origin": "Yunnan, China"
+    },
+    "downloads": ["coffee-brochure", "coffee-roasting-guide", "coffee-certification"],
+    "featured": false,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "rose-premium-cut",
+    "model": "FNX-FL-001",
+    "name": {
+      "ja": "プレミアムローズ（切り花）",
+      "en": "Premium Rose (Cut Flower)",
+      "zh": "優質玫瑰（切花）"
+    },
+    "category": "flowers",
+    "series": "roses",
+    "tags": ["rose", "cut-flower", "premium", "highland"],
+    "shortDesc": {
+      "ja": "標高1,500-3,000m高原産。鮮やかな発色と長い日持ち",
+      "en": "From 1,500-3,000m highland. Vibrant colors and long-lasting",
+      "zh": "海拔1,500-3,000m高原產。鮮豔色澤與持久保鮮"
+    },
+    "fullDesc": {
+      "ja": "雲南高原の強い紫外線と豊富な日照により、鮮やかな発色を実現。茎が丈夫で日持ち10日以上。完全コールドチェーン管理により、鮮度を保ったまま配送します。",
+      "en": "Vibrant colors achieved through strong UV radiation and abundant sunshine in Yunnan Highland. Strong stems with 10+ days longevity. Complete cold chain management ensures fresh delivery.",
+      "zh": "通過雲南高原強烈的紫外線和充足的日照實現鮮豔的色澤。花莖堅固，保鮮期10天以上。完整冷鏈管理確保新鮮配送。"
+    },
+    "images": [
+      "/static/images/products/rose-premium-01.jpg"
+    ],
+    "specs": {
+      "altitude": "1,500-3,000m",
+      "colors": ["Red", "Pink", "White", "Yellow"],
+      "stemLength": "50-80cm",
+      "longevity": "10+ days"
+    },
+    "downloads": ["flowers-catalog", "gap-certification"],
+    "featured": false,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "lavender-oil",
+    "model": "FNX-EO-005",
+    "name": {
+      "ja": "ラベンダーオイル",
+      "en": "True Lavender Oil",
+      "zh": "真正薰衣草油"
+    },
+    "category": "essential-oils",
+    "series": "lavender",
+    "tags": ["lavender", "essential-oil", "relaxation", "aromatherapy"],
+    "shortDesc": {
+      "ja": "リラックス効果抜群。アロマセラピーの定番",
+      "en": "Excellent relaxation effect. Aromatherapy staple",
+      "zh": "放鬆效果極佳。芳香療法經典"
+    },
+    "fullDesc": {
+      "ja": "雲南高原で栽培された真正ラベンダーから抽出。リラックス効果が高く、安眠やストレス緩和に効果的。フローラルで甘い香りが特徴です。",
+      "en": "Extracted from true lavender grown in Yunnan Highland. High relaxation effect, effective for sleep and stress relief. Characterized by floral and sweet aroma.",
+      "zh": "從雲南高原種植的真正薰衣草提取。放鬆效果高，對睡眠和壓力緩解有效。具有花香甜美的香氣。"
+    },
+    "images": [
+      "/static/images/products/lavender-oil-01.jpg"
+    ],
+    "specs": {
+      "botanicalName": "Lavandula angustifolia",
+      "extractionPart": "Flower and Inflorescence",
+      "extractionMethod": "Steam distillation",
+      "origin": "Yunnan, China"
+    },
+    "downloads": ["lavender-msds", "lavender-coa", "iso9001-cert"],
+    "featured": true,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  },
+  {
+    "id": "macadamia-nuts-raw",
+    "model": "FNX-NT-001",
+    "name": {
+      "ja": "マカダミアナッツ（生）",
+      "en": "Macadamia Nuts (Raw)",
+      "zh": "夏威夷果（生）"
+    },
+    "category": "nuts-food",
+    "series": "macadamia",
+    "tags": ["macadamia", "nuts", "raw", "healthy"],
+    "shortDesc": {
+      "ja": "クリーミーな食感。オレイン酸豊富",
+      "en": "Creamy texture. Rich in oleic acid",
+      "zh": "奶油質地。富含油酸"
+    },
+    "fullDesc": {
+      "ja": "雲南省で栽培されたマカダミアナッツ。クリーミーな食感とまろやかな味わいが特徴。オレイン酸やビタミンB群が豊富で、美容と健康をサポートします。",
+      "en": "Macadamia nuts grown in Yunnan Province. Characterized by creamy texture and mild flavor. Rich in oleic acid and vitamin B complex, supporting beauty and health.",
+      "zh": "雲南省種植的夏威夷果。具有奶油質地和溫和風味。富含油酸和維生素B群，支持美容與健康。"
+    },
+    "images": [
+      "/static/images/products/macadamia-nuts-01.jpg"
+    ],
+    "specs": {
+      "processing": "Raw",
+      "gradeSize": "Large (20-22mm)",
+      "certification": ["Organic", "HACCP"],
+      "origin": "Yunnan, China"
+    },
+    "downloads": ["nuts-factory-brochure", "macadamia-nutritional", "haccp-cert"],
+    "featured": false,
+    "createdAt": "2025-01-09",
+    "updatedAt": "2026-01-09"
+  }
+]
