@@ -213,9 +213,94 @@ app.get('/', (c) => {
             display: none;
             background: none;
             border: none;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             color: var(--primary-green);
             cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+            transition: transform 0.3s ease;
+        }
+
+        .mobile-menu-toggle:active {
+            transform: scale(0.95);
+        }
+
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 400px;
+            height: 100vh;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+
+        .mobile-nav.active {
+            right: 0;
+        }
+
+        .mobile-nav-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .mobile-nav-close {
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: var(--text-gray);
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .mobile-nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .mobile-nav-links a {
+            display: block;
+            padding: 1rem 0;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .mobile-nav-links a:active {
+            background: var(--bg-light);
+            padding-left: 1rem;
+        }
+
+        .mobile-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-overlay.active {
+            opacity: 1;
+            visibility: visible;
         }
 
         /* Hero Section */
@@ -989,6 +1074,28 @@ app.get('/', (c) => {
         </div>
     </header>
 
+    <!-- Mobile Navigation -->
+    <div class="mobile-overlay"></div>
+    <nav class="mobile-nav">
+        <div class="mobile-nav-header">
+            <div class="logo" style="font-size: 1.2rem;">Fvnix LLC.</div>
+            <button class="mobile-nav-close">×</button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="/">ホーム</a>
+            <a href="/products/essential-oils">精油・天然香料</a>
+            <a href="/products/nuts-food">健康・美容食品</a>
+            <a href="/products/coffee">スペシャルティコーヒー</a>
+            <a href="/products/flowers">プレミアム花卉</a>
+            <a href="#contact">お問い合わせ</a>
+            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 2px solid var(--border-color);">
+                <a href="/" style="border: none; padding: 0.5rem 0;">🇯🇵 日本語</a>
+                <a href="/en" style="border: none; padding: 0.5rem 0;">🇬🇧 English</a>
+                <a href="/zh-tw" style="border: none; padding: 0.5rem 0;">🇹🇼 繁體中文</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero">
         <!-- 雲南ハイランド風景背景（動画プレースホルダー） -->
@@ -1544,6 +1651,34 @@ app.get('/', (c) => {
     </footer>
 
     <script>
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const mobileOverlay = document.querySelector('.mobile-overlay');
+        const mobileNavClose = document.querySelector('.mobile-nav-close');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a');
+
+        function openMobileMenu() {
+            mobileNav.classList.add('active');
+            mobileOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileMenu() {
+            mobileNav.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        mobileMenuToggle.addEventListener('click', openMobileMenu);
+        mobileNavClose.addEventListener('click', closeMobileMenu);
+        mobileOverlay.addEventListener('click', closeMobileMenu);
+
+        // Close mobile menu when clicking a link
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', closeMobileMenu);
+        });
+
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {

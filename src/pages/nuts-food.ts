@@ -95,6 +95,76 @@ export const nutsFoodPageJA = () => `
             color: var(--primary-color);
             border-color: white;
         }
+
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: white;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 400px;
+            height: 100vh;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+        .mobile-nav.active { right: 0; }
+        .mobile-nav-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .mobile-nav-close {
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: #666;
+            cursor: pointer;
+        }
+        .mobile-nav-links {
+            display: flex;
+            flex-direction: column;
+        }
+        .mobile-nav-links a {
+            padding: 1rem 0;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .mobile-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        .mobile-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
         .hero {
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
@@ -210,8 +280,29 @@ export const nutsFoodPageJA = () => `
                 <a href="/en/products/nuts-food">English</a>
                 <a href="/zh-tw/products/nuts-food">繁體中文</a>
             </div>
+            <button class="mobile-menu-toggle">☰</button>
         </div>
     </header>
+
+    <div class="mobile-overlay"></div>
+    <nav class="mobile-nav">
+        <div class="mobile-nav-header">
+            <div class="logo" style="font-size: 1.2rem; color: var(--primary-color);">Fvnix LLC.</div>
+            <button class="mobile-nav-close">×</button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="/">ホーム</a>
+            <a href="/products/essential-oils">アロマ・天然香料</a>
+            <a href="/products/nuts-food">健康・美容食品</a>
+            <a href="/products/coffee">スペシャルティコーヒー</a>
+            <a href="/products/flowers">プレミアム花卉</a>
+            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 2px solid #e0e0e0;">
+                <a href="/products/nuts-food" style="border: none; padding: 0.5rem 0;">日本語</a>
+                <a href="/en/products/nuts-food" style="border: none; padding: 0.5rem 0;">English</a>
+                <a href="/zh-tw/products/nuts-food" style="border: none; padding: 0.5rem 0;">繁體中文</a>
+            </div>
+        </div>
+    </nav>
 
     <section class="hero">
         <h1>健康・美容食品</h1>
@@ -481,6 +572,30 @@ export const nutsFoodPageJA = () => `
         </p>
         <p style="margin-top: 1rem; opacity: 0.8;">© 2024 Fvnix LLC. All rights reserved.</p>
     </footer>
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const mobileOverlay = document.querySelector('.mobile-overlay');
+        const mobileNavClose = document.querySelector('.mobile-nav-close');
+        
+        mobileMenuToggle?.addEventListener('click', () => {
+            mobileNav.classList.add('active');
+            mobileOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        mobileNavClose?.addEventListener('click', () => {
+            mobileNav.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        mobileOverlay?.addEventListener('click', () => {
+            mobileNav.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    </script>
 </body>
 </html>
 `
@@ -581,6 +696,76 @@ export const nutsFoodPageEN = () => `
             color: var(--primary-color);
             border-color: white;
         }
+
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: white;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 400px;
+            height: 100vh;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+        .mobile-nav.active { right: 0; }
+        .mobile-nav-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .mobile-nav-close {
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: #666;
+            cursor: pointer;
+        }
+        .mobile-nav-links {
+            display: flex;
+            flex-direction: column;
+        }
+        .mobile-nav-links a {
+            padding: 1rem 0;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .mobile-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        .mobile-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
         .hero {
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
@@ -1153,15 +1338,18 @@ export const nutsFoodPageZH = () => `
         }
         @media (max-width: 768px) {
             .header-container {
-                flex-direction: column;
+                flex-direction: row;
+                justify-content: space-between;
                 gap: 1rem;
             }
             nav {
-                flex-direction: column;
-                gap: 0.5rem;
+                display: none;
             }
             .lang-switcher {
-                flex-direction: row;
+                display: none;
+            }
+            .mobile-menu-toggle {
+                display: block;
             }
             .hero h1 {
                 font-size: 1.8rem;
