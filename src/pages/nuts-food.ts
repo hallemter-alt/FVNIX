@@ -433,10 +433,26 @@ export const nutsFoodPageJA = () => `
         <div class="container">
             <h2 class="section-title">製品カタログ・資料ダウンロード</h2>
             <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
-                雲南高原ナッツ工場の詳細資料をダウンロードいただけます。
+                雲南高原ナッツ工場の詳細資料とクルミオイル製品紹介をダウンロードいただけます。
             </p>
             
             <div style="display: grid; gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <!-- Walnut Oil Introduction -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        🌰 雲南ハイランド産 クルミオイル 製品紹介
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        標高2,500mの恵み。低温冷圧搾クルミオイルの特長、栄養成分、品質保証の詳細
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Walnut-Oil-Introduction.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 ダウンロード（PDF・18MB）
+                    </a>
+                </div>
+                
                 <!-- Nuts Factory Brochure -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
@@ -448,8 +464,8 @@ export const nutsFoodPageJA = () => `
                     <a href="/static/documents/product-brochures/Yunnan-Nuts-Factory-Brochure.pdf" 
                        target="_blank"
                        download
-                       style="display: inline-block; background: var(--primary-color); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
-                        ダウンロード（PDF・2.4MB）
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 ダウンロード（PDF・2.4MB）
                     </a>
                 </div>
             </div>
@@ -898,6 +914,50 @@ export const nutsFoodPageEN = () => `
         </div>
     </div>
 
+    <!-- Product Brochure Download Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">Product Catalogs & Documentation Downloads</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                Download detailed brochures for Yunnan Highland Nuts Factory and Walnut Oil products.
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <!-- Walnut Oil Introduction -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        🌰 Yunnan Highland Walnut Oil - Product Introduction
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        Altitude 2,500m premium quality. Cold-pressed walnut oil features, nutritional content, and quality assurance details
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Walnut-Oil-Introduction.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 Download (PDF・18MB)
+                    </a>
+                </div>
+                
+                <!-- Nuts Factory Brochure -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 Senmeida Yongren Nuts Factory - Comprehensive Catalog
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        Yunnan Highland walnut & macadamia production facilities, processing procedures, and quality control systems
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Nuts-Factory-Brochure.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 Download (PDF・2.4MB)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>
             <a href="/en">Home</a>
@@ -1178,6 +1238,50 @@ export const nutsFoodPageZH = () => `
             晝夜溫差大、日照充足的自然條件，使果實富含營養成分。
             我們堅持完整的品質管理體制，將雲南高原的恩賜，原汁原味地送達日本市場。
         </p>
+    </div>
+
+    <!-- Product Brochure Download Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">產品目錄‧資料下載</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                可下載雲南高原堅果工廠詳細資料及核桃油產品介紹。
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <!-- Walnut Oil Introduction -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        🌰 雲南高原核桃油 - 產品介紹
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        海拔2,500m的恩賜。低溫冷壓榨核桃油的特點、營養成分、品質保證詳情
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Walnut-Oil-Introduction.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 下載（PDF・18MB）
+                    </a>
+                </div>
+                
+                <!-- Nuts Factory Brochure -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 森美達永仁堅果工廠 - 綜合目錄
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        雲南高原核桃‧夏威夷果生產基地、加工流程、品質管理體系詳情
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Nuts-Factory-Brochure.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 下載（PDF・2.4MB）
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
