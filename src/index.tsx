@@ -1288,6 +1288,85 @@ app.get('/', (c) => {
                 ここにYunnan Summit Biotechの工場・基地写真を配置<br>
                 推奨：最新鋭の抽出工場、広大な栽培基地、品質管理ラボの様子など
             </div>
+
+            <!-- Production Capacity Table -->
+            <div style="margin-top: 4rem;">
+                <h3 style="text-align: center; color: var(--primary-green); font-size: 1.5rem; margin-bottom: 2rem; font-weight: 500;">
+                    各工場の年間生産能力
+                </h3>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; max-width: 1000px; margin: 0 auto; border-collapse: collapse; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden;">
+                        <thead>
+                            <tr style="background: var(--primary-green); color: white;">
+                                <th style="padding: 1rem; text-align: left; font-weight: 500; border-right: 1px solid rgba(255,255,255,0.2);">製品シリーズ</th>
+                                <th style="padding: 1rem; text-align: left; font-weight: 500; border-right: 1px solid rgba(255,255,255,0.2);">主要製品</th>
+                                <th style="padding: 1rem; text-align: left; font-weight: 500; border-right: 1px solid rgba(255,255,255,0.2);">工場</th>
+                                <th style="padding: 1rem; text-align: center; font-weight: 500; border-right: 1px solid rgba(255,255,255,0.2);">生産能力</th>
+                                <th style="padding: 1rem; text-align: center; font-weight: 500;">輸出量</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid var(--border-color);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">ユーカリ油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">ユーカリ葉油、ユーカリ素、ホワイト樟脳油</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">雲南森美達</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">8,000トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約5,000トン/年</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--border-color); background: var(--bg-light);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">樟脳油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">樟脳、芳樟醇</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">雲南森美達</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">3,000トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約2,000トン/年</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--border-color);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">リツェアクベバ油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">リツェアクベバ油、シトラール</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">福建森美達</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">500トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約200トン/年</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--border-color); background: var(--bg-light);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">シナモン油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">シナモン油、シンナムアルデヒド</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">福建森美達</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">500トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約200トン/年</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--border-color);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">ティーツリー油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">ティーツリー油、テルピネン-4-オール</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">福建森美達</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">300トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約200トン/年</td>
+                            </tr>
+                            <tr style="background: var(--bg-light);">
+                                <td style="padding: 1rem; color: var(--primary-green); font-weight: 500;">パイン油シリーズ</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">テルピネオール、パイン油、α-ピネン、β-ピネン、ジペンテン、α-テルピネン、γ-テルピネン</td>
+                                <td style="padding: 1rem; color: var(--text-gray);">永安劲美</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--primary-green); font-weight: 600;">5,000トン/年</td>
+                                <td style="padding: 1rem; text-align: center; color: var(--accent-gold); font-weight: 500;">約1,000トン/年<br><span style="font-size: 0.85rem; color: var(--text-gray);">(国内販売: 約2,000トン/年)</span></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr style="background: var(--primary-green); color: white; font-weight: 600;">
+                                <td colspan="3" style="padding: 1rem; text-align: right;">合計</td>
+                                <td style="padding: 1rem; text-align: center;">17,300トン/年</td>
+                                <td style="padding: 1rem; text-align: center;">約10,600トン/年</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div style="margin-top: 2rem; text-align: center; color: var(--text-gray); font-size: 0.9rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <p style="line-height: 1.8;">
+                        <strong style="color: var(--primary-green);">補足情報：</strong><br>
+                        ・雲南森美達：ユーカリ油・樟脳油の主要生産拠点<br>
+                        ・福建森美達：リツェアクベバ油・シナモン油・ティーツリー油の生産拠点<br>
+                        ・永安劲美：パイン油製品の生産拠点
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
