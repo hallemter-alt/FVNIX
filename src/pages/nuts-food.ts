@@ -449,7 +449,7 @@ export const nutsFoodPageJA = () => `
                        target="_blank"
                        download
                        style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
-                        📥 ダウンロード（PDF・18MB）
+                        📥 ダウンロード（PDF・3.9MB）
                     </a>
                 </div>
                 
@@ -935,7 +935,7 @@ export const nutsFoodPageEN = () => `
                        target="_blank"
                        download
                        style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
-                        📥 Download (PDF・18MB)
+                        📥 Download (PDF・3.9MB)
                     </a>
                 </div>
                 
@@ -1261,7 +1261,7 @@ export const nutsFoodPageZH = () => `
                        target="_blank"
                        download
                        style="display: inline-block; background: white; color: var(--primary-color); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
-                        📥 下載（PDF・18MB）
+                        📥 下載（PDF・3.9MB）
                     </a>
                 </div>
                 
