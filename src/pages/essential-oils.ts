@@ -369,40 +369,82 @@ export const essentialOilsPageJA = () => `
                 <!-- MSDS Documents -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
-                        📄 安全データシート（MSDS）
+                        📄 安全データシート（MSDS） - 全23製品
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
                         各製品の安全性情報、取扱注意事項、化学成分データ
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/MSDS-Eucalyptus Citriodora Oil柠檬桉油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                        <a href="/static/documents/msds/MSDS-Lavender Oil「ラベンダーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ラベンダーオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Jasmine Absolute「ジャスミン絶対油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ジャスミン絶対油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Osmanthus Absolute「キンモクセイ純油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> キンモクセイ純油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Geranium Oil「ゼラニウムオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ゼラニウムオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Damask Rose Oil「ダマスクローズオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ダマスクローズオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Eucalyptus Citriodora Oil「レモンユーカリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
                             <span>📄</span> レモンユーカリ油
                         </a>
-                        <a href="/static/documents/MSDS-Cassia Oil桂油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> カシア油
+                        <a href="/static/documents/msds/MSDS-Cassia Oil「シナモンオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> シナモンオイル
                         </a>
-                        <a href="/static/documents/MSDS-Jasmine Absolute茉莉花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> ジャスミン精油
+                        <a href="/static/documents/msds/MSDS-Magnolia flower oil「ホワイトオーキッド油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ホワイトオーキッド油
                         </a>
-                        <a href="/static/documents/MSDS-Osmanthus Absolute桂花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> キンモクセイ精油
+                        <a href="/static/documents/msds/MSDS-Daidai Flower Oil「ネロリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ネロリ油
                         </a>
-                        <a href="/static/documents/MSDS-Lavender Oil薰衣草油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> ラベンダー油
+                        <a href="/static/documents/msds/MSDS-Patchouli Oil「パチョリオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> パチョリオイル
                         </a>
-                        <a href="/static/documents/MSDS-Geranium Oil香叶油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> ゼラニウム油
+                        <a href="/static/documents/msds/MSDS-Ginger Oil「ジンジャーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ジンジャーオイル
                         </a>
-                        <a href="/static/documents/MSDS-Damask Rose Oil大马士革玫瑰油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> ダマスクローズ油
+                        <a href="/static/documents/msds/MSDS-Litsea Cubeba Oil「リツェァクベバオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> リツェァクベバオイル
                         </a>
-                        <a href="/static/documents/MSDS-Magnolia flower oil白兰花油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> ハクモクレン油
+                        <a href="/static/documents/msds/MSDS-Agarwood Oil沉香油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 沈香油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Cedarwood Oil「シーダーウッド」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> シーダーウッド
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Chamomile Roman Oil「ローマカモミールオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ローマカモミールオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Citronella Oil「シトロネラオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> シトロネラオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Clary Sage Oil「クラリセージオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> クラリセージオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Garlic oil-UN1993「ガーリック油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ガーリック油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Ho Leaf Oil「ホーリーフ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ホーリーフ油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Star Anise Oil「スターアニスオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> スターアニスオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Valerian Oil「バレリアン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> バレリアン油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Vetiver Oil「ベチバーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ベチバーオイル
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Wintergreen Oil「ウィンターグリーン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> ウィンターグリーン油
                         </a>
                     </div>
-                    <p style="margin-top: 1.5rem; color: var(--text-gray); font-size: 0.9rem;">
-                        その他の製品MSDSについては、お問い合わせください。
-                    </p>
                 </div>
 
                 <!-- Certifications -->
@@ -414,17 +456,14 @@ export const essentialOilsPageJA = () => `
                         国際品質認証、安全管理認証の証明書類
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/ISO9001-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ ISO 9001
                         </a>
-                        <a href="/static/documents/HACCP-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/HACCP認証（英文版）.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ HACCP
                         </a>
-                        <a href="/static/documents/Kosher-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ Kosher
-                        </a>
-                        <a href="/static/documents/Product-Test-Report.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
-                            ✓ 測定レポート
                         </a>
                     </div>
                 </div>
@@ -815,40 +854,82 @@ export const essentialOilsPageEN = () => `
                 <!-- MSDS Documents -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
-                        📄 Material Safety Data Sheets (MSDS)
+                        📄 Material Safety Data Sheets (MSDS) - 23 Products
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
                         Safety information, handling precautions, and chemical composition data for each product
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/MSDS-Eucalyptus Citriodora Oil柠檬桉油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> Eucalyptus Citriodora
-                        </a>
-                        <a href="/static/documents/MSDS-Cassia Oil桂油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> Cassia Oil
-                        </a>
-                        <a href="/static/documents/MSDS-Jasmine Absolute茉莉花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> Jasmine Absolute
-                        </a>
-                        <a href="/static/documents/MSDS-Osmanthus Absolute桂花净油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📄</span> Osmanthus Absolute
-                        </a>
-                        <a href="/static/documents/MSDS-Lavender Oil薰衣草油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                        <a href="/static/documents/msds/MSDS-Lavender Oil「ラベンダーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
                             <span>📄</span> Lavender Oil
                         </a>
-                        <a href="/static/documents/MSDS-Geranium Oil香叶油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                        <a href="/static/documents/msds/MSDS-Jasmine Absolute「ジャスミン絶対油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Jasmine Absolute
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Osmanthus Absolute「キンモクセイ純油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Osmanthus Absolute
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Geranium Oil「ゼラニウムオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
                             <span>📄</span> Geranium Oil
                         </a>
-                        <a href="/static/documents/MSDS-Damask Rose Oil大马士革玫瑰油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                        <a href="/static/documents/msds/MSDS-Damask Rose Oil「ダマスクローズオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
                             <span>📄</span> Damask Rose Oil
                         </a>
-                        <a href="/static/documents/MSDS-Magnolia flower oil白兰花油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                        <a href="/static/documents/msds/MSDS-Eucalyptus Citriodora Oil「レモンユーカリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Eucalyptus Citriodora
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Cassia Oil「シナモンオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Cassia Oil (Cinnamon)
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Magnolia flower oil「ホワイトオーキッド油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
                             <span>📄</span> Magnolia Flower Oil
                         </a>
+                        <a href="/static/documents/msds/MSDS-Daidai Flower Oil「ネロリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Neroli Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Patchouli Oil「パチョリオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Patchouli Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Ginger Oil「ジンジャーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Ginger Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Litsea Cubeba Oil「リツェァクベバオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Litsea Cubeba Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Agarwood Oil沉香油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Agarwood Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Cedarwood Oil「シーダーウッド」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Cedarwood Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Chamomile Roman Oil「ローマカモミールオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Chamomile Roman Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Citronella Oil「シトロネラオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Citronella Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Clary Sage Oil「クラリセージオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Clary Sage Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Garlic oil-UN1993「ガーリック油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Garlic Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Ho Leaf Oil「ホーリーフ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Ho Leaf Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Star Anise Oil「スターアニスオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Star Anise Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Valerian Oil「バレリアン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Valerian Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Vetiver Oil「ベチバーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Vetiver Oil
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Wintergreen Oil「ウィンターグリーン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> Wintergreen Oil
+                        </a>
                     </div>
-                    <p style="margin-top: 1.5rem; color: var(--text-gray); font-size: 0.9rem;">
-                        For MSDS of other products, please contact us.
-                    </p>
                 </div>
 
                 <!-- Certifications -->
@@ -860,17 +941,14 @@ export const essentialOilsPageEN = () => `
                         International quality and safety management certification documents
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
-                        <a href="/static/documents/ISO9001-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ ISO 9001
                         </a>
-                        <a href="/static/documents/HACCP-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/HACCP認証（英文版）.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ HACCP
                         </a>
-                        <a href="/static/documents/Kosher-Certificate.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                        <a href="/static/documents/certifications/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
                             ✓ Kosher
-                        </a>
-                        <a href="/static/documents/Product-Test-Report.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
-                            ✓ Test Report
                         </a>
                     </div>
                 </div>
@@ -1230,6 +1308,136 @@ export const essentialOilsPageZH = () => `
                 font-weight: 500;
                 margin-top: 2rem;
             ">樣品申請・聯絡我們</a>
+        </div>
+    </div>
+
+    <!-- Product Catalog Downloads Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">產品目錄・資料下載</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                下載產品資料庫、安全資料表（MSDS）、各項認證文件。
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Main Product Database -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 產品資料庫總覽
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        PH001〜PH098 全98種以上產品詳細資訊、CAS編號、產品規格
+                    </p>
+                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+                        下載（PDF）
+                    </a>
+                </div>
+
+                <!-- MSDS Documents -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📄 安全資料表（MSDS） - 全23種產品
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        各產品安全性資訊、處理注意事項、化學成分資料
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/msds/MSDS-Lavender Oil「ラベンダーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 薰衣草精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Jasmine Absolute「ジャスミン絶対油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 茉莉原精
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Osmanthus Absolute「キンモクセイ純油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 桂花原精
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Geranium Oil「ゼラニウムオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 天竺葵精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Damask Rose Oil「ダマスクローズオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 大馬士革玫瑰精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Eucalyptus Citriodora Oil「レモンユーカリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 檸檬尤加利精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Cassia Oil「シナモンオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 桂皮精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Magnolia flower oil「ホワイトオーキッド油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 白蘭花精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Daidai Flower Oil「ネロリ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 橙花精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Patchouli Oil「パチョリオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 廣藿香精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Ginger Oil「ジンジャーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 生薑精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Litsea Cubeba Oil「リツェァクベバオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 山雞椒精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Agarwood Oil沉香油.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 沉香精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Cedarwood Oil「シーダーウッド」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 雪松精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Chamomile Roman Oil「ローマカモミールオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 羅馬洋甘菊精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Citronella Oil「シトロネラオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 香茅精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Clary Sage Oil「クラリセージオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 快樂鼠尾草精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Garlic oil-UN1993「ガーリック油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 大蒜精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Ho Leaf Oil「ホーリーフ油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 芳樟精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Star Anise Oil「スターアニスオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 八角精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Valerian Oil「バレリアン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 纈草精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Vetiver Oil「ベチバーオイル」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 岩蘭草精油
+                        </a>
+                        <a href="/static/documents/msds/MSDS-Wintergreen Oil「ウィンターグリーン油」.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>📄</span> 冬青精油
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        ✓ 認證文件
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        國際品質認證、安全管理認證的證明文件
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+                        <a href="/static/documents/certifications/ISO9001認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ ISO 9001
+                        </a>
+                        <a href="/static/documents/certifications/HACCP認証（英文版）.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ HACCP
+                        </a>
+                        <a href="/static/documents/certifications/Kosher認証.pdf" target="_blank" style="color: var(--primary-green); text-decoration: none; padding: 0.8rem; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: all 0.3s;">
+                            ✓ Kosher
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
