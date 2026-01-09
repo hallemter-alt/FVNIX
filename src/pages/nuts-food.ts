@@ -428,6 +428,34 @@ export const nutsFoodPageJA = () => `
         </div>
     </div>
 
+    <!-- Product Brochure Download Section -->
+    <div style="background: var(--bg-light); padding: 4rem 2rem;">
+        <div class="container">
+            <h2 class="section-title">製品カタログ・資料ダウンロード</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-gray);">
+                雲南高原ナッツ工場の詳細資料をダウンロードいただけます。
+            </p>
+            
+            <div style="display: grid; gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <!-- Nuts Factory Brochure -->
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
+                        📋 森美達永仁ナッツ工場 総合カタログ
+                    </h3>
+                    <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                        雲南高原産クルミ・マカダミアナッツの生産拠点、加工工程、品質管理体制の詳細
+                    </p>
+                    <a href="/static/documents/product-brochures/Yunnan-Nuts-Factory-Brochure.pdf" 
+                       target="_blank"
+                       download
+                       style="display: inline-block; background: var(--primary-color); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+                        ダウンロード（PDF・2.4MB）
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>
             <a href="/">ホーム</a>
