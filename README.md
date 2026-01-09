@@ -10,8 +10,12 @@
 
 ## 🌐 公開URL
 
-- **開発環境**: https://3001-ipuujtfiel4a5ynf4sr9v-2e1b9533.sandbox.novita.ai
-- **本番環境**: https://fvnix.pages.dev ✅
+### 本番環境
+- **メインサイト（Wix）**: https://www.fvnix.com/
+- **製品カタログ（Cloudflare Pages）**: https://app.fvnix.com/
+
+### 代替URL
+- https://fvnix.pages.dev （Cloudflare Pagesデフォルトドメイン）
 
 ## 📸 統合資料
 
@@ -275,3 +279,31 @@ npm run deploy
 ## 📄 ライセンス
 
 © 2024 Fvnix LLC. All rights reserved.
+
+---
+
+## ⚠️ 重要な注意事項
+
+### 開発環境URLについて
+
+以下のような開発環境URLは**使用しないでください**：
+```
+https://3000-*.sandbox.novita.ai
+https://3001-*.sandbox.novita.ai
+```
+
+これらは一時的な開発・テスト用の環境で、サンドボックスが停止すると利用できなくなります。
+
+### 本番環境URLの使用
+
+必ず以下の本番環境URLを使用してください：
+
+| 用途 | URL |
+|------|-----|
+| **メインサイト** | https://www.fvnix.com/ |
+| **製品カタログ** | https://app.fvnix.com/ |
+
+---
+
+**最終更新**: 2026年1月9日  
+**ステータス**: ✅ 本番稼働中
