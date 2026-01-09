@@ -38,3 +38,11 @@ public/static/documents/Essential-Oils-Catalog-2025.pdf
 public/static/documents/天然精油仕様カタログ20251212.pdf
 public/static/documents/FVNIX-Company-Profile-JP.pdf
 public/static/documents/会社概要「FVNIX」ー日本語版1205.pdf
+
+# Large company profile documents
+public/static/documents/company-profile/*.pptx
+public/static/documents/company-profile/*.ppt
+
+# Large inspection reports (>5MB)
+public/static/documents/inspection-reports/商品検査報告書.pdf
+
