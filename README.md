@@ -10,8 +10,8 @@
 
 ## 🌐 公開URL
 
-- **開発環境**: https://3000-i1038mialegoqx5y5le7a-0e616f0a.sandbox.novita.ai
-- **本番環境**: （Cloudflare Pagesデプロイ後に追加予定）
+- **開発環境**: https://3001-ipuujtfiel4a5ynf4sr9v-2e1b9533.sandbox.novita.ai
+- **本番環境**: https://fvnix.pages.dev ✅
 
 ## 📸 統合資料
 
