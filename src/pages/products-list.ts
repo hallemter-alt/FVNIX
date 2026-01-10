@@ -274,6 +274,146 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             border-color: var(--primary-green);
         }
         
+        /* モバイル用フィルターボタン */
+        .mobile-filter-btn {
+            display: none;
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-green);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            box-shadow: 0 2px 8px rgba(45, 95, 63, 0.3);
+            transition: all 0.3s;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            z-index: 10;
+            position: relative;
+            pointer-events: auto;
+        }
+        
+        .mobile-filter-btn:active {
+            transform: scale(0.98);
+            background: var(--secondary-green);
+        }
+        
+        /* モバイル用ドロワー */
+        .category-drawer {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+            z-index: 1000;
+            max-height: 70vh;
+            transform: translateY(100%);
+            transition: transform 0.3s ease-out;
+            overflow: hidden;
+        }
+        
+        .category-drawer.open {
+            transform: translateY(0);
+        }
+        
+        .drawer-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .drawer-overlay.open {
+            opacity: 1;
+        }
+        
+        .drawer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 10;
+        }
+        
+        .drawer-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+        
+        .drawer-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            color: var(--text-gray);
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+        
+        .drawer-content {
+            padding: 1rem;
+            overflow-y: auto;
+            max-height: calc(70vh - 70px);
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .drawer-category {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.2rem;
+            background: var(--bg-light);
+            border-radius: 10px;
+            margin-bottom: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+        
+        .drawer-category:active {
+            transform: scale(0.98);
+        }
+        
+        .drawer-category.active {
+            background: var(--primary-green);
+            color: white;
+            border-color: var(--primary-green);
+        }
+        
+        .drawer-category-icon {
+            font-size: 2rem;
+        }
+        
+        .drawer-category-name {
+            font-size: 1.1rem;
+            font-weight: 500;
+            flex: 1;
+        }
+        
         /* 製品グリッド */
         .products-grid {
             display: grid;
@@ -390,11 +530,69 @@ export const productsListPageJA = (params?: { category?: string; series?: string
                 grid-template-columns: 1fr;
             }
             
+            nav { display: none; }
+        }
+        
+        /* スマートフォン対応（430px以下） */
+        @media (max-width: 430px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .page-title {
+                font-size: 1.8rem;
+            }
+            
+            .page-subtitle {
+                font-size: 1rem;
+            }
+            
+            /* デスクトップ用カテゴリータブを非表示 */
             .category-tabs {
+                display: none !important;
+            }
+            
+            /* モバイル用フィルターボタンを表示 */
+            .mobile-filter-btn {
+                display: flex !important;
+            }
+            
+            /* ドロワーを表示可能に */
+            .category-drawer {
+                display: block;
+            }
+            
+            .drawer-overlay {
+                display: block;
+            }
+            
+            .filter-section {
+                padding: 1rem;
+            }
+            
+            .search-bar {
                 flex-direction: column;
             }
             
-            nav { display: none; }
+            .search-btn {
+                width: 100%;
+            }
+        }
+        
+        /* 360px以下の極小画面対応 */
+        @media (max-width: 360px) {
+            .header-container {
+                padding: 0.5rem;
+            }
+            
+            .logo {
+                font-size: 1rem;
+            }
+            
+            .lang-switcher a {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.75rem;
+            }
         }
     </style>
 </head>
@@ -442,7 +640,13 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             </div>
         </div>
 
-        <!-- カテゴリータブ -->
+        <!-- モバイル用フィルターボタン -->
+        <button class="mobile-filter-btn" onclick="openCategoryDrawer()">
+            <span>📋</span>
+            <span>製品分類・フィルター</span>
+        </button>
+        
+        <!-- カテゴリータブ（デスクトップ用） -->
         <div class="category-tabs">
             ${categories.map(cat => `
                 <div class="category-tab ${(!params?.category && cat.id === 'all') || params?.category === cat.id ? 'active' : ''}" 
@@ -451,6 +655,24 @@ export const productsListPageJA = (params?: { category?: string; series?: string
                     <span>${cat.name}</span>
                 </div>
             `).join('')}
+        </div>
+        
+        <!-- モバイル用カテゴリードロワー -->
+        <div class="drawer-overlay" onclick="closeCategoryDrawer()"></div>
+        <div class="category-drawer">
+            <div class="drawer-header">
+                <h3 class="drawer-title">製品カテゴリーを選択</h3>
+                <button class="drawer-close" onclick="closeCategoryDrawer()">✕</button>
+            </div>
+            <div class="drawer-content">
+                ${categories.map(cat => `
+                    <div class="drawer-category ${(!params?.category && cat.id === 'all') || params?.category === cat.id ? 'active' : ''}" 
+                         onclick="filterByCategoryMobile('${cat.id === 'all' ? '' : cat.id}')">
+                        <span class="drawer-category-icon">${cat.icon}</span>
+                        <span class="drawer-category-name">${cat.name}</span>
+                    </div>
+                `).join('')}
+            </div>
         </div>
 
         <!-- 製品グリッド -->
@@ -526,10 +748,72 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             window.location.href = url.toString();
         }
         
+        // モバイル用ドロワー制御
+        function openCategoryDrawer() {
+            const drawer = document.querySelector('.category-drawer');
+            const overlay = document.querySelector('.drawer-overlay');
+            if (drawer && overlay) {
+                drawer.classList.add('open');
+                overlay.classList.add('open');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+        
+        function closeCategoryDrawer() {
+            const drawer = document.querySelector('.category-drawer');
+            const overlay = document.querySelector('.drawer-overlay');
+            if (drawer && overlay) {
+                drawer.classList.remove('open');
+                overlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        }
+        
+        function filterByCategoryMobile(category) {
+            closeCategoryDrawer();
+            filterByCategory(category);
+        }
+        
+        // タッチイベント対応
+        document.addEventListener('DOMContentLoaded', function() {
+            // タッチイベントのサポート確認
+            const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            
+            if (isTouchDevice) {
+                // モバイル用フィルターボタンにタッチイベント追加
+                const filterBtn = document.querySelector('.mobile-filter-btn');
+                if (filterBtn) {
+                    filterBtn.addEventListener('touchstart', function(e) {
+                        e.preventDefault();
+                        openCategoryDrawer();
+                    }, { passive: false });
+                }
+                
+                // ドロワー内のカテゴリーアイテムにタッチイベント追加
+                const drawerCategories = document.querySelectorAll('.drawer-category');
+                drawerCategories.forEach(function(item) {
+                    item.addEventListener('touchstart', function(e) {
+                        e.preventDefault();
+                        const onclick = item.getAttribute('onclick');
+                        if (onclick) {
+                            eval(onclick);
+                        }
+                    }, { passive: false });
+                });
+            }
+        });
+        
         // Enter キーで検索
         document.getElementById('searchInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
                 performSearch();
+            }
+        });
+        
+        // ESCキーでドロワーを閉じる
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeCategoryDrawer();
             }
         });
     </script>
