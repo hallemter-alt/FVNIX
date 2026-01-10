@@ -288,42 +288,42 @@ export const essentialOilsPageJA = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX007</span>
-                <h3 class="product-name">蓝桉叶油（ユーカリ）</h3>
-                <p class="product-latin">Eucalyptus Globulus / 世界シェア40%+</p>
+                <span class="product-code">FNX015</span>
+                <h3 class="product-name">ユーカリ油</h3>
+                <p class="product-latin">Eucalyptus Globulus Oil / 桉叶油</p>
                 <p class="product-desc">
                     極めて強い穿透力、清涼感、樟脳気息。富含1,8-桉叶素，
-                    呼吸系統護理製品の経典成分。世界シェアNo.1製品。
+                    呼吸系統護理製品の経典成分。<strong>世界シェアNo.1（40%+）。</strong>
                 </p>
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX009</span>
+                <span class="product-code">FNX018</span>
                 <h3 class="product-name">ティーツリー油</h3>
-                <p class="product-latin">Melaleuca Alternifolia / 世界トップ2</p>
+                <p class="product-latin">Tea Tree Oil / 茶树油</p>
                 <p class="product-desc">
                     清新、辛辣、薬草般的潔浄香気。広譜的抗菌・抗ウイルス特性で知られ、
-                    ニキビケアと皮膚護理のスター成分。世界シェアトップ2。
+                    ニキビケアと皮膚護理のスター成分。<strong>世界シェアトップ2。</strong>
                 </p>
             </div>
 
             <div class="product-card">
                 <span class="product-code">FNX024</span>
-                <h3 class="product-name">桂皮油（肉桂）</h3>
-                <p class="product-latin">Cinnamomum Cassia / 世界トップ3</p>
+                <h3 class="product-name">シナモン油（肉桂叶油）</h3>
+                <p class="product-latin">Cassia Oil / 肉桂叶油</p>
                 <p class="product-desc">
                     樟科肉桂の樹皮・枝葉精油。香気辛辣甜暖、極佳的留香性と温暖感を持つ。
-                    世界シェアトップ3製品。
+                    <strong>世界トップクラス製品。</strong>
                 </p>
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX005-FNX063</span>
-                <h3 class="product-name">その他40製品以上</h3>
+                <span class="product-code">FNX005-FNX095</span>
+                <h3 class="product-name">その他88製品以上</h3>
                 <p class="product-latin">Complete Product Database</p>
                 <p class="product-desc">
-                    ラベンダー、広藿香、迷迭香、生姜油、山鶏椒油など、
-                    多様な天然精油製品をラインナップ。詳細は製品カタログをご覧ください。
+                    ラベンダー油、パチョリ油、ローズマリー油、ジンジャー油、リツェアクベバ油など、
+                    <strong>合計95種類の天然精油製品</strong>をラインナップ。詳細はBtoB製品カタログをご覧ください。
                 </p>
             </div>
         </div>
@@ -779,7 +779,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX007</span>
+                <span class="product-code">FNX015</span>
                 <h3 class="product-name">Eucalyptus Globulus Oil</h3>
                 <p class="product-latin">Blue Gum / Global Market Share 40%+</p>
                 <p class="product-desc">
@@ -789,9 +789,9 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX009</span>
+                <span class="product-code">FNX018</span>
                 <h3 class="product-name">Tea Tree Oil</h3>
-                <p class="product-latin">Melaleuca Alternifolia / Global Top 2</p>
+                <p class="product-latin">Tea Tree Oil / 茶树油 - Global Top 2</p>
                 <p class="product-desc">
                     Fresh, spicy, medicinal clean scent. Known for broad-spectrum antibacterial and antiviral properties.
                     Star ingredient for acne treatment and skin care. Global market share Top 2.
@@ -801,7 +801,7 @@ export const essentialOilsPageEN = () => `
             <div class="product-card">
                 <span class="product-code">FNX024</span>
                 <h3 class="product-name">Cassia Oil (Chinese Cinnamon)</h3>
-                <p class="product-latin">Cinnamomum Cassia / Global Top 3</p>
+                <p class="product-latin">Cassia Oil / 肉桂叶油 - World-Class Product</p>
                 <p class="product-desc">
                     Bark and leaf oil from Lauraceae cinnamon. Spicy, sweet, warm scent with excellent fixative properties
                     and warming sensation. Global market share Top 3 product.
@@ -809,7 +809,7 @@ export const essentialOilsPageEN = () => `
             </div>
 
             <div class="product-card">
-                <span class="product-code">FNX005-FNX063</span>
+                <span class="product-code">FNX005-FNX095</span>
                 <h3 class="product-name">40+ Additional Products</h3>
                 <p class="product-latin">Complete Product Database</p>
                 <p class="product-desc">

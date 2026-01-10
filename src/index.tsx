@@ -1288,11 +1288,12 @@ app.get('/', (c) => {
                         <strong>主要製品：</strong>
                     </p>
                     <ul>
-                        <li>ユーカリ油（世界シェア40%+ Global No.1）</li>
-                        <li>桂皮油・桂油（世界トップ3）</li>
-                        <li>ティーツリー油（世界トップ2）</li>
-                        <li>ジャスミンABS、キンモクセイABS</li>
-                        <li>ネロリ油、ラベンダー油、広藿香油など95製品以上</li>
+                        <li>ユーカリ油（Eucalyptus Globulus Oil / FNX015）- 世界シェア40%+ Global No.1</li>
+                        <li>シナモン油（Cassia Oil / FNX024）- 世界トップクラス</li>
+                        <li>ティーツリー油（Tea Tree Oil / FNX018）- 世界トップ2</li>
+                        <li>ジャスミン絶対油（Jasmine Absolute / FNX003）、キンモクセイ純油（Osmanthus Absolute / FNX004）</li>
+                        <li>ネロリ油（FNX002）、ラベンダー油（FNX005）、パチョリ油（FNX014）、ダマスクローズ油（FNX008）など</li>
+                        <li><strong>合計95種類以上の天然精油・香料原料</strong></li>
                     </ul>
                     <p style="margin-top: 1rem;">
                         <strong>用途：</strong>香料メーカー向け原料、化粧品・パーソナルケア製品、
@@ -1306,11 +1307,12 @@ app.get('/', (c) => {
                         <strong>主要製品：</strong>
                     </p>
                     <ul>
-                        <li>雲南高原産クルミオイル（標高1,500〜2,500m栽培）</li>
-                        <li>オメガ3脂肪酸豊富、高い油脂含量</li>
-                        <li>クルミ仁（殻割り・光選別・焙煎加工）</li>
-                        <li>クルミたんぱく粉</li>
-                        <li>マカダミアナッツ製品（臨滄産・世界最大規模）</li>
+                        <li>雲南高原産クルミ油（Walnut Oil / FNX043）- 標高1,500〜2,500m栽培、オメガ3脂肪酸豊富</li>
+                        <li>スイートアーモンド油（Almond Oil / FNX042）- 高品質美容オイル</li>
+                        <li>カメリアオイル（Camellia Seed Oil / FNX040）- 山茶籽油、伝統的な高級スキンケアオイル</li>
+                        <li>グレープシード油（Grapeseed Oil / FNX041）- 軽質で吸収性の高い美容オイル</li>
+                        <li>ホホバ油（Jojoba Oil / FNX090）- 高品質キャリアオイル</li>
+                        <li>シーバックソーン種子油（Sea Buckthorn Seed Oil / FNX091）- 栄養価の高い健康オイル</li>
                     </ul>
                     <p style="margin-top: 1rem;">
                         <strong>用途：</strong>健康食品メーカー向け原料、サプリメント、
@@ -2226,14 +2228,14 @@ app.get('/zh-tw', (c) => {
             <div class="card">
                 <div class="card-content">
                     <h3>🌿 精油・天然香料</h3>
-                    <p>全球尤加利油市場份額40%+。95種以上純天然精油產品。ISO 9001、REACH、KOSHER認證。</p>
+                    <p><strong>主要產品：</strong>尤加利油（FNX015，全球份額40%+）、肉桂葉油（FNX024）、茶樹油（FNX018）、茉莉花淨油（FNX003）、桂花淨油（FNX004）、橙花油（FNX002）、薰衣草油（FNX005）、廣藿香油（FNX014）、大馬士革玫瑰油（FNX008）等。<strong>合計95種以上天然精油・香料原料。</strong>ISO 9001、REACH、KOSHER認證。</p>
                     <a href="/zh-tw/products/essential-oils" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">了解更多 →</a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-content">
                     <h3>🥜 頂級堅果・健康食品</h3>
-                    <p>253,000公頃夏威夷豆栽培（全球最大）、高海拔核桃產品。來自雲南森美達生物科技的「腦森林」品牌。</p>
+                    <p><strong>主要產品：</strong>核桃油（FNX043）- 雲南高原栽培（海拔1,500-2,500m）、富含Omega-3；杏仁油（FNX042）、山茶籽油（FNX040）、葡萄籽油（FNX041）、荷荷巴油（FNX090）、沙棘籽油（FNX091）。雲南高原優質植物油。</p>
                     <a href="/zh-tw/products/nuts-food" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">了解更多 →</a>
                 </div>
             </div>
@@ -2664,14 +2666,14 @@ app.get('/en', (c) => {
             <div class="card">
                 <div class="card-content">
                     <h3>🌿 Essential Oils & Natural Aromatics</h3>
-                    <p>40%+ global Eucalyptus oil market share. 95+ pure natural essential oil products. ISO 9001, REACH, KOSHER certified.</p>
+                    <p><strong>Key Products:</strong> Eucalyptus Oil (FNX015, 40%+ global share), Cassia Oil (FNX024), Tea Tree Oil (FNX018), Jasmine Absolute (FNX003), Osmanthus Absolute (FNX004), Neroli Oil (FNX002), Lavender Oil (FNX005), Patchouli Oil (FNX014), Damask Rose Oil (FNX008), and more. <strong>Total 95+ natural essential oil & aroma ingredients.</strong> ISO 9001, REACH, KOSHER certified.</p>
                     <a href="/en/products/essential-oils" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">Learn More →</a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-content">
                     <h3>🥜 Premium Nuts & Healthy Foods</h3>
-                    <p>253,000 ha macadamia cultivation (world's largest), high-altitude walnut products. Brain Forest brand from Yunnan Senmeida Biotech.</p>
+                    <p><strong>Key Products:</strong> Walnut Oil (FNX043) - High-altitude Yunnan cultivation (1,500-2,500m), rich in Omega-3; Almond Oil (FNX042), Camellia Seed Oil (FNX040), Grapeseed Oil (FNX041), Jojoba Oil (FNX090), Sea Buckthorn Seed Oil (FNX091). Premium quality vegetable oils from Yunnan highlands.</p>
                     <a href="/en/products/nuts-food" style="color: var(--primary-green); font-weight: 600; margin-top: 1rem; display: inline-block;">Learn More →</a>
                 </div>
             </div>
