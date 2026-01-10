@@ -356,19 +356,19 @@ export const essentialOilsPageJA = () => `
             </p>
             
             <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
-                <!-- Main Product Database -->
+                <!-- Main BtoB Master Catalog -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
-                        📋 製品データベース総覧
+                        📋 精油総合カタログ - BtoB Master Edition（最新版）
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        PH001〜PH098 全98製品以上の詳細情報、CAS番号、製品仕様を収録
+                        雲南ハイランド産プレミアム精油95種類を網羅。大手商社・OEM向け総合資料。詳細仕様、CAS番号、技術データを完全収録。
                     </p>
-                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                    <a href="/static/documents/Fvnix-Essential-Oils-BtoB-Master-Catalog-2026.pdf" 
                        target="_blank"
                        download
-                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
-                        ダウンロード（PDF）
+                       style="display: inline-block; background: white; color: var(--primary-green); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 ダウンロード（PDF・23MB）
                     </a>
                 </div>
 
@@ -847,19 +847,19 @@ export const essentialOilsPageEN = () => `
             </p>
             
             <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
-                <!-- Main Product Database -->
+                <!-- Main BtoB Master Catalog -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
-                        📋 Complete Product Database
+                        📋 Essential Oils Master Catalog - BtoB Edition (Latest)
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        Comprehensive catalog of 98+ products (PH001-PH098) with detailed specifications, CAS numbers, and technical data
+                        Comprehensive catalog of 95 premium essential oils from Yunnan Highland. For major trading companies and OEM partners. Complete specifications, CAS numbers, and technical data.
                     </p>
-                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                    <a href="/static/documents/Fvnix-Essential-Oils-BtoB-Master-Catalog-2026.pdf" 
                        target="_blank"
                        download
-                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
-                        Download (PDF)
+                       style="display: inline-block; background: white; color: var(--primary-green); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 Download (PDF・23MB)
                     </a>
                 </div>
 
@@ -1338,19 +1338,19 @@ export const essentialOilsPageZH = () => `
             </p>
             
             <div style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
-                <!-- Main Product Database -->
+                <!-- Main BtoB Master Catalog -->
                 <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
                     <h3 style="color: var(--primary-green); margin-bottom: 1rem; font-size: 1.3rem; font-weight: 500;">
-                        📋 產品資料庫總覽
+                        📋 精油總合目錄 - BtoB Master Edition（最新版）
                     </h3>
                     <p style="color: var(--text-gray); margin-bottom: 1.5rem; line-height: 1.8;">
-                        PH001〜PH098 全98種以上產品詳細資訊、CAS編號、產品規格
+                        雲南高原頂級精油95種完整收錄。面向大型貿易商‧OEM合作夥伴的綜合資料。完整規格、CAS編號、技術資料。
                     </p>
-                    <a href="/static/documents/Phoenix Essential Oils Database_ PH001-PH098_JP.pdf" 
+                    <a href="/static/documents/Fvnix-Essential-Oils-BtoB-Master-Catalog-2026.pdf" 
                        target="_blank"
                        download
-                       style="display: inline-block; background: var(--primary-green); color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
-                        下載（PDF）
+                       style="display: inline-block; background: white; color: var(--primary-green); padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 500; transition: all 0.3s; border: 2px solid rgba(139, 189, 75, 0.3); box-shadow: 0 2px 8px rgba(139, 189, 75, 0.15);">
+                        📥 下載（PDF・23MB）
                     </a>
                 </div>
 
