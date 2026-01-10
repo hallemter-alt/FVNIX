@@ -79,6 +79,12 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             --bg-white: #ffffff;
             --bg-light: #f8f9fa;
             --border-color: #e0e0e0;
+            
+            /* iOS Safe Area対応 */
+            --safe-area-inset-top: env(safe-area-inset-top, 0px);
+            --safe-area-inset-right: env(safe-area-inset-right, 0px);
+            --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+            --safe-area-inset-left: env(safe-area-inset-left, 0px);
         }
         
         body {
@@ -92,6 +98,9 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             background: var(--primary-green);
             color: white;
             padding: 1.5rem 2rem;
+            padding-top: calc(1.5rem + var(--safe-area-inset-top));
+            padding-left: calc(2rem + var(--safe-area-inset-left));
+            padding-right: calc(2rem + var(--safe-area-inset-right));
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             position: sticky;
             top: 0;
@@ -316,6 +325,8 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
             z-index: 1000;
             max-height: 70vh;
+            max-height: 70dvh; /* Dynamic Viewport Height */
+            padding-bottom: var(--safe-area-inset-bottom);
             transform: translateY(100%);
             transition: transform 0.3s ease-out;
             overflow: hidden;
@@ -592,6 +603,114 @@ export const productsListPageJA = (params?: { category?: string; series?: string
             .lang-switcher a {
                 padding: 0.3rem 0.6rem;
                 font-size: 0.75rem;
+            }
+        }
+        
+        /* スマートフォン横画面対応（高さ430px以下） */
+        @media (orientation: landscape) and (max-height: 430px) {
+            /* ヘッダーを圧縮 */
+            header {
+                padding: 0.5rem 1rem;
+                padding-top: calc(0.5rem + var(--safe-area-inset-top));
+            }
+            
+            .header-container {
+                gap: 1rem;
+            }
+            
+            .logo {
+                font-size: 1rem;
+            }
+            
+            .lang-switcher a {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.75rem;
+            }
+            
+            /* コンテナの余白を削減 */
+            .container {
+                padding: 1rem;
+            }
+            
+            .page-title {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .page-subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            /* フィルターセクションを圧縮 */
+            .filter-section {
+                padding: 1rem;
+                margin-bottom: 1rem;
+            }
+            
+            /* 製品グリッドを2列に */
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .product-image {
+                height: 150px;
+            }
+            
+            .product-content {
+                padding: 1rem;
+            }
+            
+            .product-name {
+                font-size: 1.1rem;
+            }
+            
+            /* ドロワーの高さを調整 */
+            .category-drawer {
+                max-height: 60vh;
+                max-height: 60dvh;
+            }
+            
+            .drawer-content {
+                max-height: calc(60vh - 60px);
+                max-height: calc(60dvh - 60px);
+            }
+        }
+        
+        /* iPad縦画面（768px） */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+        }
+        
+        /* iPad横画面（1024px以上） */
+        @media (min-width: 1024px) and (max-width: 1439px) {
+            .container {
+                max-width: 1200px;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2rem;
+            }
+            
+            .category-tabs {
+                justify-content: center;
+            }
+        }
+        
+        /* デスクトップ大画面（1440px以上） */
+        @media (min-width: 1440px) {
+            .container {
+                max-width: 1400px;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 2.5rem;
             }
         }
     </style>
